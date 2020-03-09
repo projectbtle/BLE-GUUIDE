@@ -43,8 +43,5 @@ For our paper, we used an adapted version of [BLEScope](https://dl.acm.org/doi/1
 ### 3. Pre-analysis Setup
 Execute `pre-analysis-setup.py` to extract artifacts from APKs and obtain data from Play and SIG. This requires a reasonable powerful machine, as the artifact extraction utilises Androguard, which has fairly high memory usage. It also requires an internet connection to download data from Play/SIG.
 
-### 4. Analysis Configurations (Optional)
-Within `config/config.ini`, specify the elements of analysis that are required.
-
-### 5. Functionality Mapping and Analysis
+### 4. Functionality Mapping and Analysis
 Execute `uuid-functionality-mapper.py` with the required parameters.
