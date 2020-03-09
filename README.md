@@ -3,7 +3,7 @@ A framework that enables mapping functionality to BLE UUIDs by combining data fr
 
 ## Prerequisites
 * Install all packages mentioned in `requirements.txt`. (Run `pip install -r requirements.txt`.)
-* Install the NLTK corpora.
+* [Install the NLTK corpora](https://www.nltk.org/data.html).
 
 ## Usage
 ### 1. APK List
