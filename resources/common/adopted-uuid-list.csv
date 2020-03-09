@@ -1,0 +1,285 @@
+Generic Access,org.bluetooth.service.generic_access,0x1800,GAP
+Alert Notification Service,org.bluetooth.service.alert_notification,0x1811,ALERT
+Automation IO,org.bluetooth.service.automation_io,0x1815,AUTOMATION
+Battery Service,org.bluetooth.service.battery_service,0x180F,BATTERY
+Blood Pressure,org.bluetooth.service.blood_pressure,0x1810,BLOOD
+Body Composition,org.bluetooth.service.body_composition,0x181B,BODYCOMP
+Bond Management Service,org.bluetooth.service.bond_management,0x181E,BONDMGT
+Continuous Glucose Monitoring,org.bluetooth.service.continuous_glucose_monitoring,0x181F,CGM
+Current Time Service,org.bluetooth.service.current_time,0x1805,CURRENTTIME
+Cycling Power,org.bluetooth.service.cycling_power,0x1818,CYCLINGPWR
+Cycling Speed and Cadence,org.bluetooth.service.cycling_speed_and_cadence,0x1816,CYCLINGSPEED
+Device Information,org.bluetooth.service.device_information,0x180A,DEVINFO
+Environmental Sensing,org.bluetooth.service.environmental_sensing,0x181A,ENVIRON
+Fitness Machine,org.bluetooth.service.fitness_machine,0x1826,FITNESS
+Generic Attribute,org.bluetooth.service.generic_attribute,0x1801,GATT
+Glucose,org.bluetooth.service.glucose,0x1808,GLUCOSE
+Health Thermometer,org.bluetooth.service.health_thermometer,0x1809,HEALTHTHERM
+Heart Rate,org.bluetooth.service.heart_rate,0x180D,HEART
+HTTP Proxy,org.bluetooth.service.http_proxy,0x1823,HTTP
+Human Interface Device,org.bluetooth.service.human_interface_device,0x1812,HID
+Immediate Alert,org.bluetooth.service.immediate_alert,0x1802,IMMALERT
+Indoor Positioning,org.bluetooth.service.indoor_positioning,0x1821,INDOOR
+Insulin Delivery,org.bluetooth.service.insulin_delivery,0x183A,INSULIN
+Internet Protocol Support Service,org.bluetooth.service.internet_protocol_support,0x1820,IP
+Link Loss,org.bluetooth.service.link_loss,0x1803,LINK
+Location and Navigation,org.bluetooth.service.location_and_navigation,0x1819,LOCNAV
+Mesh Provisioning Service,org.bluetooth.service.mesh_provisioning,0x1827,MESH
+Mesh Proxy Service,org.bluetooth.service.mesh_proxy,0x1828,MESHPROXY
+Next DST Change Service,org.bluetooth.service.next_dst_change,0x1807,DST
+Object Transfer Service,org.bluetooth.service.object_transfer,0x1825,OTS
+Phone Alert Status Service,org.bluetooth.service.phone_alert_status,0x180E,PHONEALERT
+Pulse Oximeter Service,org.bluetooth.service.pulse_oximeter,0x1822,PULSEOXI
+Reconnection Configuration,org.bluetooth.service.reconnection_configuration,0x1829,RECONN
+Reference Time Update Service,org.bluetooth.service.reference_time_update,0x1806,REFTIME
+Running Speed and Cadence,org.bluetooth.service.running_speed_and_cadence,0x1814,RUNSPEED
+Scan Parameters,org.bluetooth.service.scan_parameters,0x1813,SCANPARAM
+Transport Discovery,org.bluetooth.service.transport_discovery,0x1824,TRANSP
+Tx Power,org.bluetooth.service.tx_power,0x1804,TX
+User Data,org.bluetooth.service.user_data,0x181C,USERDAT
+Weight Scale,org.bluetooth.service.weight_scale,0x181D,WEIGHT
+Aerobic Heart Rate Lower Limit,org.bluetooth.characteristic.aerobic_heart_rate_lower_limit,0x2A7E,USERDAT
+Aerobic Heart Rate Upper Limit,org.bluetooth.characteristic.aerobic_heart_rate_upper_limit,0x2A84,USERDAT
+Aerobic Threshold,org.bluetooth.characteristic.aerobic_threshold,0x2A7F,USERDAT
+Age,org.bluetooth.characteristic.age,0x2A80,USERDAT
+Aggregate,org.bluetooth.characteristic.aggregate,0x2A5A,AUTOMATION
+Alert Category ID,org.bluetooth.characteristic.alert_category_id,0x2A43,UNKNOWN
+Alert Category ID Bit Mask,org.bluetooth.characteristic.alert_category_id_bit_mask,0x2A42,UNKNOWN
+Alert Level,org.bluetooth.characteristic.alert_level,0x2A06,COMMONCHAR
+Alert Notification Control Point,org.bluetooth.characteristic.alert_notification_control_point,0x2A44,ALERT
+Alert Status,org.bluetooth.characteristic.alert_status,0x2A3F,PHONEALERT
+Altitude,org.bluetooth.characteristic.altitude,0x2AB3,INDOOR
+Anaerobic Heart Rate Lower Limit,org.bluetooth.characteristic.anaerobic_heart_rate_lower_limit,0x2A81,USERDAT
+Anaerobic Heart Rate Upper Limit,org.bluetooth.characteristic.anaerobic_heart_rate_upper_limit,0x2A82,USERDAT
+Anaerobic Threshold,org.bluetooth.characteristic.anaerobic_threshold,0x2A83,USERDAT
+Analog,org.bluetooth.characteristic.analog,0x2A58,AUTOMATION
+Analog Output,org.bluetooth.characteristic.analog_output,0x2A59,UNKNOWN
+Apparent Wind Direction,org.bluetooth.characteristic.apparent_wind_direction,0x2A73,ENVIRON
+Apparent Wind Speed,org.bluetooth.characteristic.apparent_wind_speed,0x2A72,ENVIRON
+Appearance,org.bluetooth.characteristic.gap.appearance,0x2A01,GAP
+Barometric Pressure Trend,org.bluetooth.characteristic.barometric_pressure_trend,0x2AA3,ENVIRON
+Battery Level,org.bluetooth.characteristic.battery_level,0x2A19,BATTERY
+Battery Level State,org.bluetooth.characteristic.battery_level_state,0x2A1B,UNKNOWN
+Battery Power State,org.bluetooth.characteristic.battery_power_state,0x2A1A,UNKNOWN
+Blood Pressure Feature,org.bluetooth.characteristic.blood_pressure_feature,0x2A49,BLOOD
+Blood Pressure Measurement,org.bluetooth.characteristic.blood_pressure_measurement,0x2A35,BLOOD
+Body Composition Feature,org.bluetooth.characteristic.body_composition_feature,0x2A9B,BODYCOMP
+Body Composition Measurement,org.bluetooth.characteristic.body_composition_measurement,0x2A9C,BODYCOMP
+Body Sensor Location,org.bluetooth.characteristic.body_sensor_location,0x2A38,HEART
+Bond Management Control Point,org.bluetooth.characteristic.bond_management_control_point,0x2AA4,BONDMGT
+Bond Management Features,org.bluetooth.characteristic.bond_management_feature,0x2AA5,BONDMGT
+Boot Keyboard Input Report,org.bluetooth.characteristic.boot_keyboard_input_report,0x2A22,HID
+Boot Keyboard Output Report,org.bluetooth.characteristic.boot_keyboard_output_report,0x2A32,HID
+Boot Mouse Input Report,org.bluetooth.characteristic.boot_mouse_input_report,0x2A33,HID
+Central Address Resolution,org.bluetooth.characteristic.gap.central_address_resolution,0x2AA6,GAP
+CGM Feature,org.bluetooth.characteristic.cgm_feature,0x2AA8,CGM
+CGM Measurement,org.bluetooth.characteristic.cgm_measurement,0x2AA7,CGM
+CGM Session Run Time,org.bluetooth.characteristic.cgm_session_run_time,0x2AAB,CGM
+CGM Session Start Time,org.bluetooth.characteristic.cgm_session_start_time,0x2AAA,CGM
+CGM Specific Ops Control Point,org.bluetooth.characteristic.cgm_specific_ops_control_point,0x2AAC,CGM
+CGM Status,org.bluetooth.characteristic.cgm_status,0x2AA9,CGM
+Cross Trainer Data,org.bluetooth.characteristic.cross_trainer_data,0x2ACE,FITNESS
+CSC Feature,org.bluetooth.characteristic.csc_feature,0x2A5C,CYCLINGSPEED
+CSC Measurement,org.bluetooth.characteristic.csc_measurement,0x2A5B,CYCLINGSPEED
+Current Time,org.bluetooth.characteristic.current_time,0x2A2B,CURRENTTIME
+Cycling Power Control Point,org.bluetooth.characteristic.cycling_power_control_point,0x2A66,CYCLINGPWR
+Cycling Power Feature,org.bluetooth.characteristic.cycling_power_feature,0x2A65,CYCLINGPWR
+Cycling Power Measurement,org.bluetooth.characteristic.cycling_power_measurement,0x2A63,CYCLINGPWR
+Cycling Power Vector,org.bluetooth.characteristic.cycling_power_vector,0x2A64,CYCLINGPWR
+Database Change Increment,org.bluetooth.characteristic.database_change_increment,0x2A99,USERDAT
+Date of Birth,org.bluetooth.characteristic.date_of_birth,0x2A85,USERDAT
+Date of Threshold Assessment,org.bluetooth.characteristic.date_of_threshold_assessment,0x2A86,USERDAT
+Date Time,org.bluetooth.characteristic.date_time,0x2A08,UNKNOWN
+Date UTC,org.bluetooth.characteristic.date_utc,0x2AED,UNKNOWN
+Day Date Time,org.bluetooth.characteristic.day_date_time,0x2A0A,UNKNOWN
+Day of Week,org.bluetooth.characteristic.day_of_week,0x2A09,UNKNOWN
+Descriptor Value Changed,org.bluetooth.characteristic.descriptor_value_changed,0x2A7D,ENVIRON
+Device Name,org.bluetooth.characteristic.gap.device_name,0x2A00,GAP
+Dew Point,org.bluetooth.characteristic.dew_point,0x2A7B,ENVIRON
+Digital,org.bluetooth.characteristic.digital,0x2A56,AUTOMATION
+Digital Output,org.bluetooth.characteristic.digital_output,0x2A57,UNKNOWN
+DST Offset,org.bluetooth.characteristic.dst_offset,0x2A0D,CURRENTTIME
+Elevation,org.bluetooth.characteristic.elevation,0x2A6C,ENVIRON
+Email Address,org.bluetooth.characteristic.email_address,0x2A87,USERDAT
+Exact Time 100,org.bluetooth.characteristic.exact_time_100,0x2A0B,UNKNOWN
+Exact Time 256,org.bluetooth.characteristic.exact_time_256,0x2A0C,UNKNOWN
+Fat Burn Heart Rate Lower Limit,org.bluetooth.characteristic.fat_burn_heart_rate_lower_limit,0x2A88,USERDAT
+Fat Burn Heart Rate Upper Limit,org.bluetooth.characteristic.fat_burn_heart_rate_upper_limit,0x2A89,USERDAT
+Firmware Revision String,org.bluetooth.characteristic.firmware_revision_string,0x2A26,DEVINFO
+First Name,org.bluetooth.characteristic.first_name,0x2A8A,USERDAT
+Fitness Machine Control Point,org.bluetooth.characteristic.fitness_machine_control_point,0x2AD9,FITNESS
+Fitness Machine Feature,org.bluetooth.characteristic.fitness_machine_feature,0x2ACC,FITNESS
+Fitness Machine Status,org.bluetooth.characteristic.fitness_machine_status,0x2ADA,FITNESS
+Five Zone Heart Rate Limits,org.bluetooth.characteristic.five_zone_heart_rate_limits,0x2A8B,USERDAT
+Floor Number,org.bluetooth.characteristic.floor_number,0x2AB2,INDOOR
+Gender,org.bluetooth.characteristic.gender,0x2A8C,USERDAT
+Glucose Feature,org.bluetooth.characteristic.glucose_feature,0x2A51,GLUCOSE
+Glucose Measurement,org.bluetooth.characteristic.glucose_measurement,0x2A18,GLUCOSE
+Glucose Measurement Context,org.bluetooth.characteristic.glucose_measurement_context,0x2A34,GLUCOSE
+Gust Factor,org.bluetooth.characteristic.gust_factor,0x2A74,ENVIRON
+Hardware Revision String,org.bluetooth.characteristic.hardware_revision_string,0x2A27,DEVINFO
+Heart Rate Control Point,org.bluetooth.characteristic.heart_rate_control_point,0x2A39,HEART
+Heart Rate Max,org.bluetooth.characteristic.heart_rate_max,0x2A8D,USERDAT
+Heart Rate Measurement,org.bluetooth.characteristic.heart_rate_measurement,0x2A37,HEART
+Heat Index,org.bluetooth.characteristic.heat_index,0x2A7A,ENVIRON
+Height,org.bluetooth.characteristic.height,0x2A8E,USERDAT
+HID Control Point,org.bluetooth.characteristic.hid_control_point,0x2A4C,HID
+HID Information,org.bluetooth.characteristic.hid_information,0x2A4A,HID
+Hip Circumference,org.bluetooth.characteristic.hip_circumference,0x2A8F,USERDAT
+HTTP Control Point,org.bluetooth.characteristic.http_control_point,0x2ABA,HTTP
+HTTP Entity Body,org.bluetooth.characteristic.http_entity_body,0x2AB9,HTTP
+HTTP Headers,org.bluetooth.characteristic.http_headers,0x2AB7,HTTP
+HTTP Status Code,org.bluetooth.characteristic.http_status_code,0x2AB8,HTTP
+HTTPS Security,org.bluetooth.characteristic.https_security,0x2ABB,HTTP
+Humidity,org.bluetooth.characteristic.humidity,0x2A6F,ENVIRON
+IDD Annunciation Status,org.bluetooth.characteristic.idd_annunciation_status,0x2B22,INSULIN
+IDD Command Control Point,org.bluetooth.characteristic.idd_command_control_point,0x2B25,INSULIN
+IDD Command Data,org.bluetooth.characteristic.idd_command_data,0x2B26,INSULIN
+IDD Features,org.bluetooth.characteristic.idd_features,0x2B23,INSULIN
+IDD History Data,org.bluetooth.characteristic.idd_history_data,0x2B28,INSULIN
+IDD Record Access Control Point,org.bluetooth.characteristic.idd_record_access_control_point,0x2B27,INSULIN
+IDD Status,org.bluetooth.characteristic.idd_status,0x2B21,INSULIN
+IDD Status Changed,org.bluetooth.characteristic.idd_status_changed,0x2B20,INSULIN
+IDD Status Reader Control Point,org.bluetooth.characteristic.idd_status_reader_control_point,0x2B24,INSULIN
+IEEE 11073-20601 Regulatory Certification Data List,org.bluetooth.characteristic.ieee_11073-20601_regulatory_certification_data_list,0x2A2A,DEVINFO
+Indoor Bike Data,org.bluetooth.characteristic.indoor_bike_data,0x2AD2,FITNESS
+Indoor Positioning Configuration,org.bluetooth.characteristic.indoor_positioning_configuration,0x2AAD,INDOOR
+Intermediate Cuff Pressure,org.bluetooth.characteristic.intermediate_cuff_pressure,0x2A36,BLOOD
+Intermediate Temperature,org.bluetooth.characteristic.intermediate_temperature,0x2A1E,HEALTHTHERM
+Irradiance,org.bluetooth.characteristic.irradiance,0x2A77,ENVIRON
+Language,org.bluetooth.characteristic.language,0x2AA2,USERDAT
+Last Name,org.bluetooth.characteristic.last_name,0x2A90,USERDAT
+Latitude,org.bluetooth.characteristic.latitude,0x2AAE,INDOOR
+LN Control Point,org.bluetooth.characteristic.ln_control_point,0x2A6B,LOCNAV
+LN Feature,org.bluetooth.characteristic.ln_feature,0x2A6A,LOCNAV
+Local East Coordinate,org.bluetooth.characteristic.local_east_coordinate,0x2AB1,INDOOR
+Local North Coordinate,org.bluetooth.characteristic.local_north_coordinate,0x2AB0,INDOOR
+Local Time Information,org.bluetooth.characteristic.local_time_information,0x2A0F,CURRENTTIME
+Location and Speed Characteristic,org.bluetooth.characteristic.location_and_speed,0x2A67,LOCNAV
+Location Name,org.bluetooth.characteristic.location_name,0x2AB5,INDOOR
+Longitude,org.bluetooth.characteristic.Longitude,0x2AAF,INDOOR
+Magnetic Declination,org.bluetooth.characteristic.magnetic_declination,0x2A2C,ENVIRON
+Magnetic Flux Density - 2D,org.bluetooth.characteristic.Magnetic_flux_density_2D,0x2AA0,ENVIRON
+Magnetic Flux Density - 3D,org.bluetooth.characteristic.Magnetic_flux_density_3D,0x2AA1,ENVIRON
+Manufacturer Name String,org.bluetooth.characteristic.manufacturer_name_string,0x2A29,DEVINFO
+Maximum Recommended Heart Rate,org.bluetooth.characteristic.maximum_recommended_heart_rate,0x2A91,USERDAT
+Measurement Interval,org.bluetooth.characteristic.measurement_interval,0x2A21,HEALTHTHERM
+Mesh Provisioning Data In,org.bluetooth.characteristic.mesh_provisioning_data_in,0x2ADB,MESH
+Mesh Provisioning Data Out,org.bluetooth.characteristic.mesh_provisioning_data_out,0x2ADC,MESH
+Mesh Proxy Data In,org.bluetooth.characteristic.mesh_proxy_data_in,0x2ADD,MESHPROXY
+Mesh Proxy Data Out,org.bluetooth.characteristic.mesh_proxy_data_out,0x2ADE,MESHPROXY
+Model Number String,org.bluetooth.characteristic.model_number_string,0x2A24,DEVINFO
+Navigation,org.bluetooth.characteristic.navigation,0x2A68,LOCNAV
+Network Availability,org.bluetooth.characteristic.network_availability,0x2A3E,UNKNOWN
+New Alert,org.bluetooth.characteristic.new_alert,0x2A46,ALERT
+Object Action Control Point,org.bluetooth.characteristic.object_action_control_point,0x2AC5,OTS
+Object Changed,org.bluetooth.characteristic.object_changed,0x2AC8,OTS
+Object First-Created,org.bluetooth.characteristic.object_first_created,0x2AC1,OTS
+Object ID,org.bluetooth.characteristic.object_id,0x2AC3,OTS
+Object Last-Modified,org.bluetooth.characteristic.object_last_modified,0x2AC2,OTS
+Object List Control Point,org.bluetooth.characteristic.object_list_control_point,0x2AC6,OTS
+Object List Filter,org.bluetooth.characteristic.object_list_filter,0x2AC7,OTS
+Object Name,org.bluetooth.characteristic.object_name,0x2ABE,OTS
+Object Properties,org.bluetooth.characteristic.object_properties,0x2AC4,OTS
+Object Size,org.bluetooth.characteristic.object_size,0x2AC0,OTS
+Object Type,org.bluetooth.characteristic.object_type,0x2ABF,OTS
+OTS Feature,org.bluetooth.characteristic.ots_feature,0x2ABD,OTS
+Peripheral Preferred Connection Parameters,org.bluetooth.characteristic.gap.peripheral_preferred_connection_parameters,0x2A04,GAP
+Peripheral Privacy Flag,org.bluetooth.characteristic.gap.peripheral_privacy_flag,0x2A02,GAP
+PLX Continuous Measurement Characteristic,org.bluetooth.characteristic.plx_continuous_measurement,0x2A5F,PULSEOXI
+PLX Features,org.bluetooth.characteristic.plx_features,0x2A60,PULSEOXI
+PLX Spot-Check Measurement,org.bluetooth.characteristic.plx_spot_check_measurement,0x2A5E,PULSEOXI
+PnP ID,org.bluetooth.characteristic.pnp_id,0x2A50,DEVINFO
+Pollen Concentration,org.bluetooth.characteristic.pollen_concentration,0x2A75,ENVIRON
+Position 2D,org.bluetooth.characteristic.position_2d,0x2A2F,UNKNOWN
+Position 3D,org.bluetooth.characteristic.position_3d,0x2A30,UNKNOWN
+Position Quality,org.bluetooth.characteristic.position_quality,0x2A69,LOCNAV
+Pressure,org.bluetooth.characteristic.pressure,0x2A6D,ENVIRON
+Protocol Mode,org.bluetooth.characteristic.protocol_mode,0x2A4E,HID
+Pulse Oximetry Control Point,org.bluetooth.characteristic.pulse_oximetry_control_point,0x2A62,UNKNOWN
+Rainfall,org.bluetooth.characteristic.rainfall,0x2A78,ENVIRON
+RC Feature,org.bluetooth.characteristic.rc_feature,0x2B1D,RECONN
+RC Settings,org.bluetooth.characteristic.rc_settings,0x2B1E,RECONN
+Reconnection Address,org.bluetooth.characteristic.gap.reconnection_address,0x2A03,GAP
+Reconnection Configuration Control Point,org.bluetooth.characteristic.reconnection_configuration_control_point,0x2B1F,RECONN
+Record Access Control Point,org.bluetooth.characteristic.record_access_control_point,0x2A52,COMMONCHAR
+Reference Time Information,org.bluetooth.characteristic.reference_time_information,0x2A14,CURRENTTIME
+Removable,org.bluetooth.characteristic.removable,0x2A3A,UNKNOWN
+Report,org.bluetooth.characteristic.report,0x2A4D,HID
+Report Map,org.bluetooth.characteristic.report_map,0x2A4B,HID
+Resolvable Private Address Only,org.bluetooth.characteristic.resolvable_private_address_only,0x2AC9,UNKNOWN
+Resting Heart Rate,org.bluetooth.characteristic.resting_heart_rate,0x2A92,USERDAT
+Ringer Control point,org.bluetooth.characteristic.ringer_control_point,0x2A40,PHONEALERT
+Ringer Setting,org.bluetooth.characteristic.ringer_setting,0x2A41,PHONEALERT
+Rower Data,org.bluetooth.characteristic.rower_data,0x2AD1,FITNESS
+RSC Feature,org.bluetooth.characteristic.rsc_feature,0x2A54,RUNSPEED
+RSC Measurement,org.bluetooth.characteristic.rsc_measurement,0x2A53,RUNSPEED
+SC Control Point,org.bluetooth.characteristic.sc_control_point,0x2A55,COMMONCHAR
+Scan Interval Window,org.bluetooth.characteristic.scan_interval_window,0x2A4F,SCANPARAM
+Scan Refresh,org.bluetooth.characteristic.scan_refresh,0x2A31,SCANPARAM
+Scientific Temperature Celsius,org.bluetooth.characteristic.scientific_temperature_celsius,0x2A3C,UNKNOWN
+Secondary Time Zone,org.bluetooth.characteristic.secondary_time_zone,0x2A10,UNKNOWN
+Sensor Location,org.bluetooth.characteristic.sensor_location,0x2A5D,COMMONCHAR
+Serial Number String,org.bluetooth.characteristic.serial_number_string,0x2A25,DEVINFO
+Service Changed,org.bluetooth.characteristic.gatt.service_changed,0x2A05,GATT
+Service Required,org.bluetooth.characteristic.service_required,0x2A3B,UNKNOWN
+Software Revision String,org.bluetooth.characteristic.software_revision_string,0x2A28,DEVINFO
+Sport Type for Aerobic and Anaerobic Thresholds,org.bluetooth.characteristic.sport_type_for_aerobic_and_anaerobic_thresholds,0x2A93,USERDAT
+Stair Climber Data,org.bluetooth.characteristic.stair_climber_data,0x2AD0,FITNESS
+Step Climber Data,org.bluetooth.characteristic.step_climber_data,0x2ACF,FITNESS
+String,org.bluetooth.characteristic.string,0x2A3D,UNKNOWN
+Supported Heart Rate Range,org.bluetooth.characteristic.supported_heart_rate_range,0x2AD7,FITNESS
+Supported Inclination Range,org.bluetooth.characteristic.supported_inclination_range,0x2AD5,FITNESS
+Supported New Alert Category,org.bluetooth.characteristic.supported_new_alert_category,0x2A47,ALERT
+Supported Power Range,org.bluetooth.characteristic.supported_power_range,0x2AD8,FITNESS
+Supported Resistance Level Range,org.bluetooth.characteristic.supported_resistance_level_range,0x2AD6,FITNESS
+Supported Speed Range,org.bluetooth.characteristic.supported_speed_range,0x2AD4,FITNESS
+Supported Unread Alert Category,org.bluetooth.characteristic.supported_unread_alert_category,0x2A48,ALERT
+System ID,org.bluetooth.characteristic.system_id,0x2A23,DEVINFO
+TDS Control Point,org.bluetooth.characteristic.tds_control_point,0x2ABC,TRANSP
+Temperature,org.bluetooth.characteristic.temperature,0x2A6E,ENVIRON
+Temperature Celsius,org.bluetooth.characteristic.temperature_celsius,0x2A1F,UNKNOWN
+Temperature Fahrenheit,org.bluetooth.characteristic.temperature_fahrenheit,0x2A20,UNKNOWN
+Temperature Measurement,org.bluetooth.characteristic.temperature_measurement,0x2A1C,HEALTHTHERM
+Temperature Type,org.bluetooth.characteristic.temperature_type,0x2A1D,HEALTHTHERM
+Three Zone Heart Rate Limits,org.bluetooth.characteristic.three_zone_heart_rate_limits,0x2A94,USERDAT
+Time Accuracy,org.bluetooth.characteristic.time_accuracy,0x2A12,UNKNOWN
+Time Broadcast,org.bluetooth.characteristic.time_broadcast,0x2A15,UNKNOWN
+Time Source,org.bluetooth.characteristic.time_source,0x2A13,UNKNOWN
+Time Update Control Point,org.bluetooth.characteristic.time_update_control_point,0x2A16,REFTIME
+Time Update State,org.bluetooth.characteristic.time_update_state,0x2A17,REFTIME
+Time with DST,org.bluetooth.characteristic.time_with_dst,0x2A11,DST
+Time Zone,org.bluetooth.characteristic.time_zone,0x2A0E,CURRENTTIME
+Training Status,org.bluetooth.characteristic.training_status,0x2AD3,FITNESS
+Treadmill Data,org.bluetooth.characteristic.treadmill_data,0x2ACD,FITNESS
+True Wind Direction,org.bluetooth.characteristic.true_wind_direction,0x2A71,ENVIRON
+True Wind Speed,org.bluetooth.characteristic.true_wind_speed,0x2A70,ENVIRON
+Two Zone Heart Rate Limit,org.bluetooth.characteristic.two_zone_heart_rate_limit,0x2A95,USERDAT
+Tx Power Level,org.bluetooth.characteristic.tx_power_level,0x2A07,TX
+Uncertainty,org.bluetooth.characteristic.uncertainty,0x2AB4,INDOOR
+Unread Alert Status,org.bluetooth.characteristic.unread_alert_status,0x2A45,ALERT
+URI,org.bluetooth.characteristic.uri,0x2AB6,HTTP
+User Control Point,org.bluetooth.characteristic.user_control_point,0x2A9F,USERDAT
+User Index,org.bluetooth.characteristic.user_index,0x2A9A,USERDAT
+UV Index,org.bluetooth.characteristic.uv_index,0x2A76,ENVIRON
+VO2 Max,org.bluetooth.characteristic.vo2_max,0x2A96,USERDAT
+Waist Circumference,org.bluetooth.characteristic.waist_circumference,0x2A97,USERDAT
+Weight,org.bluetooth.characteristic.weight,0x2A98,USERDAT
+Weight Measurement,org.bluetooth.characteristic.weight_measurement,0x2A9D,WEIGHT
+Weight Scale Feature,org.bluetooth.characteristic.weight_scale_feature,0x2A9E,WEIGHT
+Wind Chill,org.bluetooth.characteristic.wind_chill,0x2A79,ENVIRON
+Characteristic Aggregate Format,org.bluetooth.descriptor.gatt.characteristic_aggregate_format,0x2905,GSS
+Characteristic Extended Properties,org.bluetooth.descriptor.gatt.characteristic_extended_properties,0x2900,GSS
+Characteristic Presentation Format,org.bluetooth.descriptor.gatt.characteristic_presentation_format,0x2904,GSS
+Characteristic User Description,org.bluetooth.descriptor.gatt.characteristic_user_description,0x2901,GSS
+Client Characteristic Configuration,org.bluetooth.descriptor.gatt.client_characteristic_configuration,0x2902,GSS
+Environmental Sensing Configuration,org.bluetooth.descriptor.es_configuration,0x290B,GSS
+Environmental Sensing Measurement,org.bluetooth.descriptor.es_measurement,0x290C,GSS
+Environmental Sensing Trigger Setting,org.bluetooth.descriptor.es_trigger_setting,0x290D,GSS
+External Report Reference,org.bluetooth.descriptor.external_report_reference,0x2907,GSS
+Number of Digitals,org.bluetooth.descriptor.number_of_digitals,0x2909,GSS
+Report Reference,org.bluetooth.descriptor.report_reference,0x2908,GSS
+Server Characteristic Configuration,org.bluetooth.descriptor.gatt.server_characteristic_configuration,0x2903,GSS
+Time Trigger Setting,org.bluetooth.descriptor.time_trigger_setting,0x290E,GSS
+Valid Range,org.bluetooth.descriptor.valid_range,0x2906,GSS
+Value Trigger Setting,org.bluetooth.descriptor.value_trigger_setting,0x290A,GSS
