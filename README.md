@@ -41,7 +41,11 @@ For our paper, we used an adapted version of [BLEScope](https://dl.acm.org/doi/1
 * The method names in the file should be in smali format. If they are in Soot format, then use the conversion tool within `utils` to convert the (methods within the) file to the expected format.
 
 ### 3. Pre-analysis Setup
-Execute `pre-analysis-setup.py` to extract artifacts from APKs and obtain data from Play and SIG. This requires a reasonable powerful machine, as the artifact extraction utilises Androguard, which has fairly high memory usage. It also requires an internet connection to download data from Play/SIG.
+Execute `pre-analysis-setup.py` to extract artifacts from APKs and obtain data from Play and SIG. 
+
+#### Notes:
+* This requires a reasonable powerful machine, as the artifact extraction utilises Androguard, which has fairly high memory usage. It also requires an internet connection to download data from Play/SIG.
+* Depending on the number of APKs that are being analysed, this step can result in significant storage space requirements.
 
 ### 4. Functionality Mapping and Analysis
 Execute `uuid-functionality-mapper.py` with the required parameters.
