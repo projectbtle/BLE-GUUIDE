@@ -1,8 +1,11 @@
+# To extract fields and strings from APKs.
+androguard
+
 # To download and process data from Play/SIG.
 requests
 html2text
 
-# regex.
+# For regex operations
 re
 
 # For NLP processing.
