@@ -34,8 +34,7 @@ To use the UUID functionality mapper, you first need an object containing the UU
 }
 ```
 
-For our paper, we used an adapted version of [BLEScope](https://dl.acm.org/doi/10.1145/3319535.3354240). Please contact the authors if you require the tool. Alternatively, you can use the uuid-extractor at [this repo](https://github.com/projectbtle/uuid-extractor) with some modifications to the output file.
-
+For our paper, we used an adapted version of [BLEScope](https://dl.acm.org/doi/10.1145/3319535.3354240). Please contact the authors to obtain the tool. Alternatively, you can use the UUID Extractor at [this repo](https://github.com/projectbtle/uuid-extractor) with some modifications to the output file. Note that the method names in the file should be in smali format. If they are in Soot format, then use the conversion tool within `utils` to convert the (methods within the) file to the expected format.
 
 ### 3. Pre-analysis Setup
 Execute `pre-analysis-setup.py` to extract artifacts from APKs and obtain data from Play and SIG. This requires a reasonable powerful machine, as the artifact extraction utilises Androguard, which has fairly high memory usage. It also requires an internet connection to download data from Play/SIG.
