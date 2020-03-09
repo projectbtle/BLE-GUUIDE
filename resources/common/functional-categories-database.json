@@ -1,0 +1,1432 @@
+{
+    "medical": {
+        "measurement": {
+            "ecg": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "electrocardiogram": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "eeg": {
+                "blacklist": [
+                    "squeegee"
+                ],
+                "meaning": [],
+                "children": {}
+            },
+            "electroencephalogram": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "hrm": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "hrs": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "heart": {
+                "blacklist": [
+                    "hearted",
+                    "hearten",
+                    "hearty",
+                    "heartily",
+                    "heartier",
+                    "heartiest",
+                    "hearth"
+                ],
+                "meaning": [
+                    "heart.n.02"
+                ],
+                "children": {}
+            },
+            "health": {
+                "blacklist": [],
+                "meaning": [
+                    "health.n.01",
+                    "health.n.02"
+                ],
+                "children": {}
+            },
+            "pulse": {
+                "blacklist": [
+                    "impulse",
+                    "repulse"
+                ],
+                "meaning": [
+                    "pulse.n.02",
+                    "pulse.n.03"
+                ],
+                "children": {}
+            },
+            "oximeter": {
+                "blacklist": [],
+                "meaning": [
+                    "oximeter.n.01"
+                ],
+                "children": {}
+            },
+            "glucose": {
+                "blacklist": [],
+                "meaning": [
+                    "glucose.n.01"
+                ],
+                "children": {}
+            },
+            "cgm": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "diabetes": {
+                "blacklist": [],
+                "meaning": [
+                    "diabetes.n.01"
+                ],
+                "children": {}
+            },
+            "medical": {
+                "blacklist": [],
+                "meaning": [
+                    "checkup.n.01",
+                    "medical.a.01",
+                    "medical.a.02"
+                ],
+                "children": {}
+            },
+            "temperature": {
+                "blacklist": [],
+                "meaning": [
+                    "temperature.n.01"
+                ],
+                "children": {}
+            },
+            "thermometer": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "blood": {
+                "blacklist": [],
+                "meaning": [
+
+                ],
+                "children": {}
+            }
+        },
+        "intervention": {
+            "insulin": {
+                "blacklist": [],
+                "meaning": [
+                    "insulin.n.01"
+                ],
+                "children": {}
+            }
+        }
+    },
+    "fitness": {
+        "activity_measurement": {
+            "running": {
+                "blacklist": [],
+                "meaning": [
+                    "run.n.07",
+                    "track.n.11",
+                    "run.v.01",
+                    "run.v.11",
+                    "run.v.29",
+                    "run.v.33",
+                    "race.v.02"
+                ],
+                "children": {}
+            },
+            "speed": {
+                "blacklist": [],
+                "meaning": [
+                    "speed.n.01",
+                    "speed.n.02",
+                    "speed.n.03",
+                    "rush.v.01",
+                    "accelerate.v.01"
+                ],
+                "children": {}
+            },
+            "cadence": {
+                "blacklist": [],
+                "meaning": [
+                    "cadence.n.03"
+                ],
+                "children": {}
+            },
+            "workout": {
+                "blacklist": [],
+                "meaning": [
+                    "exercise.n.01"
+                ],
+                "children": {}
+            },
+            "fitness": {
+                "blacklist": [],
+                "meaning": [
+                    "fitness.n.02"
+                ],
+                "children": {}
+            },
+            "pedometer": {
+                "blacklist": [],
+                "meaning": [
+                    "pedometer.n.01"
+                ],
+                "children": {}
+            },
+            "sport": {
+                "blacklist": [],
+                "meaning": [
+                    "sport.n.01",
+                    "sport.n.02",
+                    "sport.n.05"
+                ],
+                "children": {}
+            },
+            "wearable": {
+                "blacklist": [],
+                "meaning": [
+                    "clothing.n.01",
+                    "wearable.a.01"
+                ],
+                "children": {}
+            },
+            "tracker": {
+                "blacklist": [],
+                "meaning": [
+                    "tracker.n.01"
+                ],
+                "children": {}
+            },
+            "scale": {
+                "blacklist": [
+                    "downscale",
+                    "microscale",
+                    "upscale",
+                    "timescale",
+                    "overscale",
+                    "rescale",
+                    "nanoscale"
+                ],
+                "meaning": [
+                    "scale.n.07",
+                    "scale.v.01",
+                    "scale.v.07"
+                ],
+                "children": {}
+            },
+            "bike": {
+                "blacklist": [],
+                "meaning": [
+                    "bicycle.n.01",
+                    "bicycle.v.01"
+                ],
+                "children": {}
+            },
+            "bicycle": {
+                "blacklist": [],
+                "meaning": [
+                    "bicycle.n.01",
+                    "bicycle.v.01"
+                ],
+                "children": {}
+            },
+            "cardio": {
+                "blacklist": [
+                    "cardiogram"
+                ],
+                "meaning": [],
+                "children": {}
+            },
+            "treadmill": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            }
+        },
+        "body_metrics": {
+            "weight": {
+                "blacklist": [
+                    "weightless",
+                    "paperweight"
+                ],
+                "meaning": [
+                    "weight.n.01",
+                    "weight.n.02",
+                    "system_of_weights.n.01"
+                ],
+                "children": {}
+            },
+            "body": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "fat": {
+                        "meaning": [
+                            "fatness.n.01"
+                        ]
+                    },
+                    "composition": {
+                        "meaning": []
+                    }
+                }
+            }
+        }
+    },
+    "security": {
+        "access_control": {
+            "padlock": {
+                "blacklist": [],
+                "meaning": [
+                    "padlock.n.01"
+                ],
+                "children": {}
+            },
+            "security": {
+                "blacklist": [],
+                "meaning": [
+                    "security_system.n.02"
+                ],
+                "children": {}
+            },
+            "access": {
+                "blacklist": [
+                    "accessibility",
+                    "accesor",
+                    "accession"
+                ],
+                "meaning": [],
+                "children": {
+                    "control": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "authentication": {
+            "password": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "passcode": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "authentication": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "ecdh": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "aes": {
+                "blacklist": [
+                    "hyperaesth",
+                    "aesthet",
+                    "anaesth",
+                    "caesar",
+                    "maestro",
+                    "sundaes",
+                    "reggaes"
+                ],
+                "meaning": [],
+                "children": {}
+            }
+        }
+    },
+    "locnav": {
+        "positioning": {
+            "navigation": {
+                "blacklist": [],
+                "meaning": [
+                    "navigation.n.01"
+                ],
+                "children": {}
+            },
+            "latitude": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "longitude": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "indoor": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "location": {
+                        "meaning": []
+                    },
+                    "positioning": {
+                        "meaning": []
+                    }
+                }
+            },
+            "positioning": {
+                "blacklist": [],
+                "meaning": [
+                    "placement.n.03",
+                    "position.v.01"
+                ],
+                "children": {}
+            },
+            "geolocation": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "location": {
+                "blacklist": [
+                    "allocation",
+                    "echolocation",
+                    "translocation",
+                    "collocation",
+                    "mislocation",
+                    "dislocation"
+                ],
+                "meaning": [
+                    "location.n.01",
+                    "placement.n.03",
+                    "localization.n.01"
+                ],
+                "children": {}
+            }
+        },
+        "beacon": {
+            "beacon": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            }
+        }
+    },
+    "device_mgmt": {
+        "device_info": {
+            "firmware": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "revision": {
+                        "meaning": []
+                    },
+                    "version": {
+                        "meaning": []
+                    },
+                    "id": {
+                        "meaning": []
+                    },
+                    "identifier": {
+                        "meaning": []
+                    }
+                }
+            },
+            "software": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "revision": {
+                        "meaning": []
+                    },
+                    "version": {
+                        "meaning": []
+                    },
+                    "id": {
+                        "meaning": []
+                    },
+                    "identifier": {
+                        "meaning": []
+                    }
+                }
+            },
+            "oem": {
+                "blacklist": [
+                    "thromboembol",
+                    "photoemi",
+                    "aeroembol",
+                    "coemploy",
+                    "coembod",
+                    "shoemak"
+                ],
+                "meaning": [],
+                "children": {
+                    "revision": {
+                        "meaning": []
+                    },
+                    "version": {
+                        "meaning": []
+                    },
+                    "id": {
+                        "meaning": []
+                    },
+                    "identifier": {
+                        "meaning": []
+                    },
+                    "model": {
+                        "meaning": []
+                    }
+                }
+            },
+            "hardware": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "revision": {
+                        "meaning": []
+                    },
+                    "version": {
+                        "meaning": []
+                    },
+                    "id": {
+                        "meaning": []
+                    },
+                    "identifier": {
+                        "meaning": []
+                    },
+                    "model": {
+                        "meaning": []
+                    }
+                }
+            },
+            "device": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "revision": {
+                        "meaning": []
+                    },
+                    "version": {
+                        "meaning": []
+                    },
+                    "id": {
+                        "meaning": []
+                    },
+                    "identifier": {
+                        "meaning": []
+                    },
+                    "model": {
+                        "meaning": []
+                    },
+                    "name": {
+                        "meaning": []
+                    },
+                    "info": {
+                        "meaning": []
+                    }
+                }
+            },
+            "manufacturer": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "name": {
+                        "meaning": []
+                    },
+                    "id": {
+                        "meaning": []
+                    },
+                    "identifier": {
+                        "meaning": []
+                    }
+                }
+            },
+            "manufacturing": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "id": {
+                        "meaning": []
+                    },
+                    "identifier": {
+                        "meaning": []
+                    }
+                }
+            },
+            "model": {
+                "blacklist": [
+                    "modelling",
+                    "modeling",
+                    "modelled",
+                    "modeled",
+                    "remodel"
+                ],
+                "meaning": [],
+                "children": {
+                    "number": {
+                        "meaning": []
+                    }
+                }
+            },
+            "serial": {
+                "blacklist": [
+                    "serializ",
+                    "serialis",
+                    "nonserial",
+                    "serially"
+                ],
+                "meaning": [],
+                "children": {
+                    "number": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "dfu": {
+            "firmware": {
+                "blacklist": [],
+                "meaning": [
+                    "firmware.n.01"
+                ],
+                "children": {}
+            },
+            "dfu": {
+                "blacklist": [
+                    "mindful",
+                    "regardful",
+                    "dreadful",
+                    "needful",
+                    "heedful",
+                    "handful",
+                    "headful"
+                ],
+                "meaning": [],
+                "children": {}
+            },
+            "ota": {
+                "blacklist": [
+                    "abotage",
+                    "anecdota",
+                    "antidotal",
+                    "audiotap",
+                    "botan",
+                    "cenotaph",
+                    "corotat",
+                    "cotangent",
+                    "denotab",
+                    "flotat",
+                    "infotain",
+                    "iota",
+                    "isotactic",
+                    "notab",
+                    "notar",
+                    "notat",
+                    "otavirus",
+                    "pivotal",
+                    "potab",
+                    "potash",
+                    "potassi",
+                    "potato",
+                    "promotab",
+                    "protago",
+                    "protamine",
+                    "protase",
+                    "quota",
+                    "rotat",
+                    "sabotag",
+                    "sellotap",
+                    "taxon",
+                    "total",
+                    "uprootal",
+                    "videotap",
+                    "votable"
+                ],
+                "meaning": [],
+                "children": {}
+            },
+            "oad": {
+                "blacklist": [
+                    "road",
+                    "load",
+                    "coadapt",
+                    "coadj",
+                    "coadmi"
+                ],
+                "meaning": [],
+                "children": {}
+            },
+            "over": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "the": {
+                        "meaning": [],
+                        "children": {
+                            "air": {
+                                "meaning": []
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "bootloader": {
+            "bootloader": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            }
+        },
+        "softdevice_mgmt": {
+            "softdevice": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            }
+        },
+        "battery": {
+            "battery": {
+                "blacklist": [],
+                "meaning": [
+                    "battery.n.02"
+                ],
+                "children": {}
+            }
+        },
+        "rssi": {
+            "rssi": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "received": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "signal": {
+                        "meaning": []
+                    }
+                }
+            },
+            "rx": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "signal": {
+                        "meaning": []
+                    },
+                    "power": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "txpower": {
+            "tx": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "power": {
+                        "meaning": []
+                    }
+                }
+            },
+            "transmit": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "power": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "connection_management": {
+            "pairing": {
+                "blacklist": [],
+                "meaning": [
+                    "pair.v.01"
+                ],
+                "children": {}
+            },
+            "disconnection": {
+                "blacklist": [],
+                "meaning": [
+                    "disconnection.n.03"
+                ],
+                "children": {}
+            },
+            "disconnect": {
+                "blacklist": [],
+                "meaning": [
+                    "disconnect.v.02"
+                ],
+                "children": {}
+            },
+            "reconnect": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            }
+        },
+        "advertising": {
+            "advertising": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "interval": {
+                        "meaning": []
+                    },
+                    "parameters": {
+                        "meaning": []
+                    },
+                    "params": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "scanning": {
+            "scanning": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "param": {
+                        "meaning": []
+                    },
+                    "interval": {
+                        "meaning": []
+                    }
+                }
+            },
+            "scan": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "param": {
+                        "meaning": []
+                    },
+                    "interval": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "alerts": {
+            "alert": {
+                "blacklist": [
+                    "alertness",
+                    "alertly"
+                ],
+                "meaning": [
+                    "alarm.n.03",
+                    "alert.n.02"
+                ],
+                "children": {}
+            }
+        },
+        "factory_reset": {
+            "factory": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "reset": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "reboot": {
+            "reboot": {
+                "blacklist": [],
+                "meaning": [
+                    "boot.v.02"
+                ],
+                "children": {}
+            }
+        }
+    },
+    "transport": {
+        "personal_transport": {
+            "personal": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "transport": {
+                        "meaning": []
+                    }
+                }
+            },
+            "scooter": {
+                "blacklist": [],
+                "meaning": [
+                    "scooter.n.02",
+                    "motor_scooter.n.01"
+                ],
+                "children": {}
+            }
+        },
+        "generic_transport": {
+            "automotive": {
+                "blacklist": [],
+                "meaning": [
+                    "automotive.a.01",
+                    "automotive.s.02"
+                ],
+                "children": {}
+            },
+            "vehicle": {
+                "blacklist": [],
+                "meaning": [
+                    "vehicle.n.01"
+                ],
+                "children": {}
+            },
+            "driver": {
+                "blacklist": [
+                    "screwdriver"
+                ],
+                "meaning": [
+                    "driver.n.01"
+                ],
+                "children": {}
+            },
+            "truck": {
+                "blacklist": [
+                    "struck"
+                ],
+                "meaning": [
+                    "truck.n.01"
+                ],
+                "children": {}
+            },
+            "tyre": {
+                "blacklist": [
+                    "styrene"
+                ],
+                "meaning": [
+                    "tire.n.01"
+                ],
+                "children": {}
+            },
+            "tire": {
+                "blacklist": [
+                    "attire",
+                    "entire",
+                    "retire",
+                    "satire",
+                    "tired",
+                    "tireless"
+                ],
+                "meaning": [
+                    "tire.n.01"
+                ],
+                "children": {}
+            }
+        }
+    },
+    "smart_home": {
+        "device_mgmt": {
+            "tv": {
+                "blacklist": [
+                    "postv",
+                    "outv",
+                    "startv"
+                ],
+                "meaning": [
+                    "television.n.01",
+                    "television_receiver.n.01"
+                ],
+                "children": {}
+            },
+            "television": {
+                "blacklist": [],
+                "meaning": [
+                    "television.n.01",
+                    "television.n.02",
+                    "television_receiver.n.01"
+                ],
+                "children": {}
+            },
+            "coffee": {
+                "blacklist": [],
+                "meaning": [
+                    "coffee.n.01",
+                    "coffee_bean.n.01"
+                ],
+                "children": {}
+            },
+            "kitchen": {
+                "blacklist": [],
+                "meaning": [
+                    "kitchen.n.01"
+                ],
+                "children": {}
+            },
+            "appliance": {
+                "blacklist": [],
+                "meaning": [
+                    "appliance.n.02"
+                ],
+                "children": {}
+            },
+            "light": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "bulb": {
+                        "meaning": []
+                    }
+                }
+            },
+            "lightbulb": {
+                "blacklist": [],
+                "meaning": [
+                    "light_bulb.n.01"
+                ],
+                "children": {}
+            },
+            "led": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "light": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "environment_mgmt": {
+            "thermostat": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "humidifier": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            }
+        }
+    },
+    "environment": {
+        "sensors": {
+            "temperature": {
+                "blacklist": [],
+                "meaning": [
+                    "temperature.n.01"
+                ],
+                "children": {}
+            },
+            "humidity": {
+                "blacklist": [],
+                "meaning": [
+                    "humidity.n.01"
+                ],
+                "children": {}
+            },
+            "wind": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "speed": {
+                        "meaning": []
+                    },
+                    "direction": {
+                        "meaning": []
+                    }
+                }
+            },
+            "barometer": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "barometric": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "uv": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "index": {
+                        "meaning": []
+                    }
+                }
+            },
+            "acceler": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "magnet": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "gyroscope": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "luxometer": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            },
+            "luminous": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "intensity": {
+                        "meaning": []
+                    },
+                    "flux": {
+                        "meaning": []
+                    }
+                }
+            }
+        }
+    },
+    "devices": {
+        "personal_comms": [],
+        "office_mgmt": {
+            "printer": {
+                "blacklist": [],
+                "meaning": [
+                    "printer.n.03"
+                ],
+                "children": {}
+            },
+            "copier": {
+                "blacklist": [],
+                "meaning": [
+                    "duplicator.n.01"
+                ],
+                "children": {}
+            }
+        }
+    },
+    "accessories": {
+        "audio_visual": {
+            "microphone": {
+                "blacklist": [],
+                "meaning": [
+                    "microphone.n.01"
+                ],
+                "children": {}
+            },
+            "speaker": {
+                "blacklist": [],
+                "meaning": [
+                    "loudspeaker.n.01"
+                ],
+                "children": {}
+            },
+            "audio": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "visual": {
+                        "meaning": []
+                    }
+                }
+            },
+            "music": {
+                "blacklist": [],
+                "meaning": [
+                    "music.n.01",
+                    "music.n.02",
+                    "music.n.03",
+                    "music.n.04"
+                ],
+                "children": {}
+            },
+            "camera": {
+                "blacklist": [],
+                "meaning": [
+                    "camera.n.01"
+                ],
+                "children": {}
+            },
+            "video": {
+                "blacklist": [],
+                "meaning": [
+                    "video_recording.n.01",
+                    "television.n.01",
+                    "video.n.03"
+                ],
+                "children": {}
+            },
+            "head": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "phone": {
+                        "meaning": []
+                    },
+                    "set": {
+                        "meaning": []
+                    }
+                }
+            },
+            "ear": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "phone": {
+                        "meaning": []
+                    }
+                }
+            },
+            "headset": {
+                "blacklist": [],
+                "meaning": [
+                    "headset.n.01"
+                ],
+                "children": {}
+            },
+            "headphone": {
+                "blacklist": [],
+                "meaning": [
+                    "headset.n.01"
+                ],
+                "children": {}
+            },
+            "earphone": {
+                "blacklist": [],
+                "meaning": [
+                    "earphone.n.01"
+                ],
+                "children": {}
+            }
+        },
+        "input_output": {
+            "keyboard": {
+                "blacklist": [],
+                "meaning": [
+                    "keyboard.n.01"
+                ],
+                "children": {}
+            },
+            "keypad": {
+                "blacklist": [],
+                "meaning": [
+                    "computer_keyboard.n.01"
+                ],
+                "children": {}
+            },
+            "mouse": {
+                "blacklist": [],
+                "meaning": [
+                    "mouse.n.04"
+                ],
+                "children": {}
+            }
+        },
+        "gaming": {
+            "game": {
+                "blacklist": [
+                    "ligament"
+                ],
+                "meaning": [
+                    "game.n.01",
+                    "game.n.02",
+                    "game.n.03",
+                    "game.n.09"
+                ],
+                "children": {}
+            },
+            "gaming": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            }
+        },
+        "other": {
+            "smart": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "watch": {
+                        "meaning": []
+                    },
+                    "band": {
+                        "meaning": []
+                    },
+                    "bracelet": {
+                        "meaning": []
+                    }
+                }
+            },
+            "wristband": {
+                "blacklist": [],
+                "meaning": [
+                    "watchband.n.01"
+                ],
+                "children": {}
+            },
+            "bracelet": {
+                "blacklist": [],
+                "meaning": [
+                    "watchband.n.01",
+                    "bracelet.n.02"
+                ],
+                "children": {}
+            }
+        }
+    },
+    "network": {
+        "mesh": {
+            "mesh": {
+                "blacklist": [
+                    "meshing"
+                ],
+                "meaning": [],
+                "children": {}
+            }
+        },
+        "proxying": {
+            "proxying": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {}
+            }
+        },
+        "configuration": {
+            "router": {
+                "blacklist": [],
+                "meaning": [
+                    "router.n.02"
+                ],
+                "children": {}
+            }
+        }
+    },
+    "communications": {
+        "file_transfer": {
+            "file": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "transfer": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "uart": {
+            "uart": {
+                "blacklist": [
+                    "quart"
+                ],
+                "meaning": [],
+                "children": {}
+            }
+        },
+        "internet_protocol": {
+            "internet": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "protocol": {
+                        "meaning": []
+                    }
+                }
+            }
+        },
+        "spp": {
+            "serial": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "port": {
+                        "meaning": []
+                    }
+                }
+            }
+        }
+    },
+    "user_information": {
+        "pii": {
+            "date": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "of": {
+                        "meaning": [],
+                        "children": {
+                            "birth": {
+                                "meaning": []
+                            }
+                        }
+                    }
+                }
+            },
+            "birth": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "date": {
+                        "meaning": []
+                    },
+                    "day": {
+                        "meaning": []
+                    }
+                }
+            },
+            "first": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "name": {
+                        "meaning": []
+                    }
+                }
+            },
+            "last": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "name": {
+                        "meaning": []
+                    }
+                }
+            },
+            "middle": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "name": {
+                        "meaning": []
+                    }
+                }
+            },
+            "bank": {
+                "blacklist": [],
+                "meaning": [],
+                "children": {
+                    "account": {
+                        "meaning": [],
+                        "children": {
+                            "number": {
+                                "meaning": []
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

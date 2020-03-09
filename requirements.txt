@@ -1,0 +1,9 @@
+# To download and process data from Play/SIG.
+requests
+html2text
+
+# regex.
+re
+
+# For NLP processing.
+nltk
