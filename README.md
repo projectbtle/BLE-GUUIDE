@@ -38,4 +38,4 @@ For our paper, we used an adapted version of [BLEScope](https://dl.acm.org/doi/1
 
 
 ### 2. Pre-analysis Setup
-Execute `pre-analysis-setup.py` to extract artifacts from APKs and download data from Play and SIG. This requires a reasonable powerful machine, as the artifact extraction utilises Androguard, which has fairly high memory usage. It also requires na internet connection.
+Execute `pre-analysis-setup.py` to extract artifacts from APKs and download data from Play and SIG. This requires a reasonable powerful machine, as the artifact extraction utilises Androguard, which has fairly high memory usage. It also requires an internet connection.
