@@ -1,4 +1,4 @@
-# uuid-function-mapper
+# UUID Functionality Mapper
 A framework that enables mapping functionality to BLE UUIDs by combining data from various sources
 
 ## Prerequisites
