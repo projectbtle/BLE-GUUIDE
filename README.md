@@ -38,7 +38,7 @@ For our paper, we used an adapted version of [BLEScope](https://dl.acm.org/doi/1
 
 #### Notes:
 * The file must be named `uuid-extractor-output.json` and must be present within the `input-output` directory.
-* The method names in the file should be in smali format. If they are in Soot format, then use the conversion tool within `utils` to convert the (methods within the) file to the expected format.
+* The method names in the file should be in smali format. If they are in Soot format, then use the `soot-to-smali.py` conversion tool within `utils` to convert the (methods within the) file to the expected format.
 
 ### 3. Pre-analysis Setup
 Execute `pre-analysis-setup.py` to extract artifacts from APKs and obtain data from Play and SIG. 
