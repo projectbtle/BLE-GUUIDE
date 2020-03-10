@@ -143,6 +143,7 @@ class ApkMatcher:
         return self.obj_output
                 
     def fn_get_per_apk_functionality(self, apk):
+        per_apk_output = {}
         for uuid in self.obj_extractor_output[apk]:
             if uuid in self.list_ignore_uuids:
                 continue
@@ -157,7 +158,6 @@ class ApkMatcher:
                     continue
 
             # Add keys to output object.
-            per_apk_output = {}
             if uuid not in per_apk_output:
                 per_apk_output[uuid] = {
                     'component_categories': {},
