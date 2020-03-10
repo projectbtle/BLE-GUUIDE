@@ -10,19 +10,15 @@ RESERVED_BLE_SUFFIX = '-0000-1000-8000-00805F9B34FB'
 
 
 class UUIDAnalyser:
-    def __init__(self):
+    def __init__(self, basepath):
         # Set up logger.
         logging.basicConfig()
         self.logger = logging.getLogger('uuid-analyser')
         self.logger.setLevel(logging.DEBUG)
         
         # Set up directory paths.
-        self.curr_dir = os.path.dirname(os.path.realpath(__file__))
-        self.base_dir = os.path.abspath(os.path.join(
-            self.curr_dir,
-            '..',
-            '..'
-        ))
+        self.base_dir = basepath
+        
         self.io_dir = os.path.abspath(os.path.join(
             self.base_dir,
             'input-output'
