@@ -3,7 +3,7 @@ import json
 from category-analysis import CategoryAnalyser
 
 class ApkMatcher:
-    def __init__(self, basepath, is_validation_mode=False, save_temp_files=False):
+    def __init__(self, basepath, is_validation_mode=False, path_to_extractor_output=None):
         # Configs.
         self.bool_is_validation_mode = is_validation_mode
         self.bool_save_temp_file = save_temp_files
@@ -47,8 +47,11 @@ class ApkMatcher:
             self.io_dir,
             'uuid-extractor-output.json'
         )
-        with open(extractor_output_file) as f1:
-            self.obj_extractor_output = json.load(f1)
+        if path_to_extractor_output != None:
+            extractor_output_file = path_to_extractor_output
+        if os.path.isfile(extractor_output_file):
+            with open(extractor_output_file) as f1:
+                self.obj_extractor_output = json.load(f1)
             
         # Load KFUs.
         self.fn_load_kfus()
@@ -72,11 +75,6 @@ class ApkMatcher:
                         self.kfu_list.append(uuid)
         
     def fn_get_functionality(self, path_to_extractor_output=None):
-        if path_to_extractor_output != None:
-            if os.path.isfile(path_to_extractor_output):
-                with open(path_to_extractor_output) as f1:
-                    self.obj_extractor_output = json.load(f1)
-        
         checked_uuid_method_pairs = {}
         for apk in self.obj_extractor_output:
             for uuid in self.obj_extractor_output[apk]:
@@ -93,10 +91,10 @@ class ApkMatcher:
                         continue
 
                 # Add keys to output object.
-                if apk not in self.obj_extractor_output:
-                    self.obj_extractor_output[apk] = {}
-                if uuid not in self.obj_extractor_output[apk]:
-                    self.obj_extractor_output[apk][uuid] = {
+                if apk not in self.obj_output:
+                    self.obj_output[apk] = {}
+                if uuid not in self.obj_output[apk]:
+                    self.obj_output[apk][uuid] = {
                         'component_categories': {},
                         'final_category': 'N/A'
                     }
@@ -116,12 +114,12 @@ class ApkMatcher:
                 if str_methods == checked_uuid_method_pairs[uuid]['methods']:
                     assigned_categories = \
                         checked_uuid_method_pairs[uuid]['categories']
-                    self.obj_extractor_output[apk][uuid]['component_categories'] = \
+                    self.obj_output[apk][uuid]['component_categories'] = \
                         assigned_categories
                     com_cat = \
-                        self.obj_extractor_output[apk][uuid]['component_categories']['combined_categories']
+                        self.obj_output[apk][uuid]['component_categories']['combined_categories']
                     if len(list(set(com_cat))) == 1:
-                        self.obj_extractor_output[apk][uuid]['final_category'] = \
+                        self.obj_output[apk][uuid]['final_category'] = \
                             com_cat[0]
                     continue
                 
@@ -130,19 +128,62 @@ class ApkMatcher:
                 
                 # Update list of checked uuid-methods, so that we needn't
                 #  repeat it again.
+                checked_uuid_method_pairs[uuid]['methods'] = str_methods
                 checked_uuid_method_pairs[uuid]['categories'] = \
                     uuid_categories
                     
                 # Update output 
-                self.obj_extractor_output[apk][uuid]['component_categories'] = \
+                self.obj_output[apk][uuid]['component_categories'] = \
                     uuid_categories
                 com_cat = \
-                    self.obj_extractor_output[apk][uuid]['component_categories']['combined_categories']
+                    self.obj_output[apk][uuid]['component_categories']['combined_categories']
                 if len(list(set(com_cat))) == 1:
-                    self.obj_extractor_output[apk][uuid]['final_category'] = \
+                    self.obj_output[apk][uuid]['final_category'] = \
                         com_cat[0]
         return self.obj_output
                 
+    def fn_get_per_apk_functionality(self, apk):
+        for uuid in self.obj_extractor_output[apk]:
+            if uuid in self.list_ignore_uuids:
+                continue
+                
+            # In normal mode, we don't test KFUs.
+            # In validation mode, we don't check UFUs.
+            if self.bool_is_validation_mode == True:
+                if uuid not in self.kfu_list:
+                    continue
+            else:
+                if uuid in self.kfu_list:
+                    continue
+
+            # Add keys to output object.
+            per_apk_output = {}
+            if uuid not in per_apk_output:
+                per_apk_output[uuid] = {
+                    'component_categories': {},
+                    'final_category': 'N/A'
+                }
+                
+            methods_list = []
+            # If we have already checked the exact same UUID and 
+            #  methods before, don't re-check.
+            methods_list = \
+                self.obj_extractor_output[apk]['uuids'][uuid]['methods']
+            methods_list.sort()
+
+            # Get analysis output.
+            uuid_categories = self.fn_perform_analysis_for_uuid(apk, methods_list)
+
+            # Update output 
+            per_apk_output[uuid]['component_categories'] = \
+                uuid_categories
+            com_cat = \
+                per_apk_output[uuid]['component_categories']['combined_categories']
+            if len(list(set(com_cat))) == 1:
+                per_apk_output[uuid]['final_category'] = \
+                    com_cat[0]
+        return per_apk_output
+        
     def fn_perform_analysis_for_uuid(self, apk, methods_list):
         out_categories = {
             'api_categories' = [],
