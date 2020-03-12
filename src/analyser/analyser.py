@@ -9,11 +9,11 @@ RESERVED_BLE_PREFIX = '0000'
 RESERVED_BLE_SUFFIX = '-0000-1000-8000-00805F9B34FB'
 
 
-class UUIDAnalyser:
+class UUIDStatsAnalyser:
     def __init__(self, basepath):
         # Set up logger.
         logging.basicConfig()
-        self.logger = logging.getLogger('uuid-analyser')
+        self.logger = logging.getLogger('uuid-stats-analyser')
         self.logger.setLevel(logging.DEBUG)
         
         # Set up directory paths.
@@ -77,7 +77,7 @@ class UUIDAnalyser:
         self.obj_apks_only_adopted_with_mismatches = {}
         self.obj_apks_only_adopted_no_mismatches = {}
     
-    def get_stats(self):
+    def fn_get_stats(self):
         # Identify APKs with at least one extracted UUID.
         self.fn_get_num_apks_with_extracted_uuids()
         

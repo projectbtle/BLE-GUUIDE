@@ -74,7 +74,7 @@ class ApkMatcher:
                     if uuid not in self.kfu_list:
                         self.kfu_list.append(uuid)
         
-    def fn_get_functionality(self, path_to_extractor_output=None):
+    def fn_get_functionality(self):
         checked_uuid_method_pairs = {}
         for apk in self.obj_extractor_output:
             for uuid in self.obj_extractor_output[apk]:
