@@ -49,3 +49,17 @@ Execute `pre_analysis_setup.py` to extract artifacts from APKs and obtain data f
 
 ### 4. Functionality Mapping and Analysis
 Execute `ble_functionality_mapper.py` with the required parameters.
+
+```
+usage: ble_functionality_mapper.py [-h] [-s] [-m]
+
+A tool for performing functionality mapping for BLE UUIDs.
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -s, --stats  perform statistical analysis over extracted UUIDs. Results will be printed to console.
+  -m, --map    perform functionality mapping over extracted UUIDs. Results will be saved to JSON.
+
+Note that this tool has only been tested with Python 3.8.0. Some functionality will likely not work with versions less
+than 3.4.
+```
