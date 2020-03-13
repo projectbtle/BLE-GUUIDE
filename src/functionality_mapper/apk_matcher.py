@@ -1,12 +1,11 @@
 import os
 import json
-from category-analysis import CategoryAnalyser
+from category_analysis import CategoryAnalyser
 
 class ApkMatcher:
     def __init__(self, basepath, is_validation_mode=False, path_to_extractor_output=None):
         # Configs.
         self.bool_is_validation_mode = is_validation_mode
-        self.bool_save_temp_file = save_temp_files
         
         # Initialise paths.
         self.base_dir = basepath
@@ -57,7 +56,7 @@ class ApkMatcher:
         self.fn_load_kfus()
         
         # Initialise CategoryAnalyser.
-        self.ca = CategoryAnalyser()
+        self.ca = CategoryAnalyser(self.base_dir)
         
         # Initialise output object.
         self.obj_output = {}
@@ -186,10 +185,10 @@ class ApkMatcher:
         
     def fn_perform_analysis_for_uuid(self, apk, methods_list):
         out_categories = {
-            'api_categories' = [],
-            'string_categories' = [],
-            'field_categories' = [],
-            'combined_categories' = []
+            'api_categories': [],
+            'string_categories': [],
+            'field_categories': [],
+            'combined_categories': []
         }
         
         # Load strings file.

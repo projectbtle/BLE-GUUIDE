@@ -1,8 +1,9 @@
+import re
+import os
+import nltk
 import json
 import requests
 import html2text
-import nltk
-import re
 from nltk.wsd import lesk
 from nltk import word_tokenize, regexp_tokenize
 from nltk.corpus import wordnet as wn

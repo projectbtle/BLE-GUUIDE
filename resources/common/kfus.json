@@ -1,0 +1,2915 @@
+{
+    "ADOPTED": {
+        "ALL": {
+            "00001800-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00001811-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00001815-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "0000180F-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "battery",
+                "category_subcategory": "device_mgmt:battery"
+            },
+            "00001810-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "0000181B-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "0000181E-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "0000181F-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00001805-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00001818-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00001816-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "0000180A-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "0000181A-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00001826-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00001801-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00001808-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00001809-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "0000180D-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00001823-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00001812-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00001802-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00001821-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "0000183A-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00001820-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "internet_protocol",
+                "category_subcategory": "communications:internet_protocol"
+            },
+            "00001803-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00001819-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00001827-0000-1000-8000-00805F9B34FB": {
+                "category": "network",
+                "sub-category": "mesh",
+                "category_subcategory": "network:mesh"
+            },
+            "00001828-0000-1000-8000-00805F9B34FB": {
+                "category": "network",
+                "sub-category": "mesh",
+                "category_subcategory": "network:mesh"
+            },
+            "00001807-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00001825-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "0000180E-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00001822-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00001829-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00001806-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00001814-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00001813-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "scanning",
+                "category_subcategory": "device_mgmt:scanning"
+            },
+            "00001824-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00001804-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "txpower",
+                "category_subcategory": "device_mgmt:txpower"
+            },
+            "0000181C-0000-1000-8000-00805F9B34FB": {
+                "category": "user_information",
+                "sub-category": "pii",
+                "category_subcategory": "user_information:pii"
+            },
+            "0000181D-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A7E-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A84-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A7F-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A80-0000-1000-8000-00805F9B34FB": {
+                "category": "user_information",
+                "sub-category": "pii",
+                "category_subcategory": "user_information:pii"
+            },
+            "00002A5A-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A43-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002A42-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002A06-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002A44-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002A3F-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002AB3-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A81-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A82-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A83-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A58-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A59-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A73-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A72-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A01-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AA3-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A19-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "battery",
+                "category_subcategory": "device_mgmt:battery"
+            },
+            "00002A1B-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "battery",
+                "category_subcategory": "device_mgmt:battery"
+            },
+            "00002A1A-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "battery",
+                "category_subcategory": "device_mgmt:battery"
+            },
+            "00002A49-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A35-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A9B-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A9C-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A38-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002AA4-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00002AA5-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00002A22-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00002A32-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00002A33-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00002AA6-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AA8-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002AA7-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002AAB-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002AAA-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002AAC-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002AA9-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002ACE-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A5C-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A5B-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A2B-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A66-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A65-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A63-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A64-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A99-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A85-0000-1000-8000-00805F9B34FB": {
+                "category": "user_information",
+                "sub-category": "pii",
+                "category_subcategory": "user_information:pii"
+            },
+            "00002A86-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A08-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AED-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A0A-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A09-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A7D-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A00-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00002A7B-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A56-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A57-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A0D-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A6C-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A87-0000-1000-8000-00805F9B34FB": {
+                "category": "user_information",
+                "sub-category": "pii",
+                "category_subcategory": "user_information:pii"
+            },
+            "00002A0B-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A0C-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A88-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A89-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A26-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00002A8A-0000-1000-8000-00805F9B34FB": {
+                "category": "user_information",
+                "sub-category": "pii",
+                "category_subcategory": "user_information:pii"
+            },
+            "00002AD9-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002ACC-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002ADA-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A8B-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002AB2-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A8C-0000-1000-8000-00805F9B34FB": {
+                "category": "user_information",
+                "sub-category": "pii",
+                "category_subcategory": "user_information:pii"
+            },
+            "00002A51-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A18-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A34-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A74-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A27-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00002A39-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A8D-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A37-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A7A-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A8E-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A4C-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00002A4A-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00002A8F-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002ABA-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AB9-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AB7-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AB8-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002ABB-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A6F-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002B22-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002B25-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002B26-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002B23-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002B28-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002B27-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002B21-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002B20-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002B24-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "intervention",
+                "category_subcategory": "medical:intervention"
+            },
+            "00002A2A-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AD2-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002AAD-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A36-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A1E-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A77-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002AA2-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A90-0000-1000-8000-00805F9B34FB": {
+                "category": "user_information",
+                "sub-category": "pii",
+                "category_subcategory": "user_information:pii"
+            },
+            "00002AAE-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A6B-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A6A-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002AB1-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002AB0-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A0F-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A67-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002AB5-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002AAF-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A2C-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002AA0-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002AA1-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A29-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00002A91-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A21-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002ADB-0000-1000-8000-00805F9B34FB": {
+                "category": "network",
+                "sub-category": "mesh",
+                "category_subcategory": "network:mesh"
+            },
+            "00002ADC-0000-1000-8000-00805F9B34FB": {
+                "category": "network",
+                "sub-category": "mesh",
+                "category_subcategory": "network:mesh"
+            },
+            "00002ADD-0000-1000-8000-00805F9B34FB": {
+                "category": "network",
+                "sub-category": "mesh",
+                "category_subcategory": "network:mesh"
+            },
+            "00002ADE-0000-1000-8000-00805F9B34FB": {
+                "category": "network",
+                "sub-category": "mesh",
+                "category_subcategory": "network:mesh"
+            },
+            "00002A24-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00002A68-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A3E-0000-1000-8000-00805F9B34FB": {
+                "category": "network",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A46-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002AC5-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002AC8-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002AC1-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002AC3-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002AC2-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002AC6-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002AC7-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002ABE-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002AC4-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002AC0-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002ABF-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002ABD-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "file_transfer",
+                "category_subcategory": "communications:file_transfer"
+            },
+            "00002A04-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00002A02-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A5F-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A60-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A5E-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A50-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A75-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A2F-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A30-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A69-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A6D-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A4E-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00002A62-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A78-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002B1D-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00002B1E-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00002A03-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00002B1F-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00002A52-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A14-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A3A-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A4D-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00002A4B-0000-1000-8000-00805F9B34FB": {
+                "category": "accessories",
+                "sub-category": "input_output",
+                "category_subcategory": "accessories:input_output"
+            },
+            "00002AC9-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A92-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A40-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002A41-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002AD1-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A54-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A53-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A55-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A4F-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "scanning",
+                "category_subcategory": "device_mgmt:scanning"
+            },
+            "00002A31-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "scanning",
+                "category_subcategory": "device_mgmt:scanning"
+            },
+            "00002A3C-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A10-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A5D-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A25-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00002A05-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A3B-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A28-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00002A93-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002AD0-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002ACF-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A3D-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AD7-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002AD5-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A47-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002AD8-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002AD6-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002AD4-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A48-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002A23-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002ABC-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A6E-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A1F-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A20-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A1C-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A1D-0000-1000-8000-00805F9B34FB": {
+                "category": "medical",
+                "sub-category": "measurement",
+                "category_subcategory": "medical:measurement"
+            },
+            "00002A94-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A12-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A15-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A13-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A16-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A17-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A11-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A0E-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002AD3-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002ACD-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00002A71-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A70-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A95-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A07-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "txpower",
+                "category_subcategory": "device_mgmt:txpower"
+            },
+            "00002AB4-0000-1000-8000-00805F9B34FB": {
+                "category": "locnav",
+                "sub-category": "positioning",
+                "category_subcategory": "locnav:positioning"
+            },
+            "00002A45-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "alerts",
+                "category_subcategory": "device_mgmt:alerts"
+            },
+            "00002AB6-0000-1000-8000-00805F9B34FB": {
+                "category": "communications",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A9F-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A9A-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A76-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "00002A96-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002A97-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A98-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A9D-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A9E-0000-1000-8000-00805F9B34FB": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00002A79-0000-1000-8000-00805F9B34FB": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            }
+        }
+    },
+    "BEACON": {
+        "ESTIMOTE": {
+            "B9403000-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "B9403003-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "B9403001-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "B9403002-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "B9403041-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "device_mgmt",
+                "sub-category": "battery",
+                "category_subcategory": "device_mgmt:battery"
+            },
+            "B9403021-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B9403011-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "device_mgmt",
+                "sub-category": "txpower",
+                "category_subcategory": "device_mgmt:txpower"
+            },
+            "B9403012-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "device_mgmt",
+                "sub-category": "advertising",
+                "category_subcategory": "device_mgmt:advertising"
+            },
+            "B9404000-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "B9404001-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "B9404002-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "B9402000-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "B9402001-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "B9402002-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "B9407F30-F5F8-466E-AFF9-25556B57FE6D": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "8492E75F-4FD6-469D-B132-043FE94921D8": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            }
+        },
+        "BLUECATS": {
+            "61687109-905F-4436-91F8-E602F514C96D": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            }
+        },
+        "KONTAKT": {
+            "F7826DA6-4FA2-4E98-8024-BC5B71E0893E": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "A1EA8110-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "A1EA8111-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "A1EA8112-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "A1EA8113-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "A1EA8114-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "A1EA8120-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "A1EA8121-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "device_mgmt",
+                "sub-category": "advertising",
+                "category_subcategory": "device_mgmt:advertising"
+            },
+            "A1EA8130-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "A1EA8131-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "A1EA8132-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "A1EA8133-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "device_mgmt",
+                "sub-category": "factory_reset",
+                "category_subcategory": "device_mgmt:factory_reset"
+            },
+            "A1EA8134-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "device_mgmt",
+                "sub-category": "factory_reset",
+                "category_subcategory": "device_mgmt:factory_reset"
+            },
+            "A1EA8135-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "device_mgmt",
+                "sub-category": "bootloader",
+                "category_subcategory": "device_mgmt:bootloader"
+            },
+            "A1EA8136-0E1B-D4A1-B840-63F88C8DA1EA": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "EDDYSTONE": {
+            "EE0C2080-8786-40BA-AB96-99B91AC981D8": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "EE0C2081-8786-40BA-AB96-99B91AC981D8": {
+                "category": "security",
+                "sub-category": "access_control",
+                "category_subcategory": "security:access_control"
+            },
+            "EE0C2082-8786-40BA-AB96-99B91AC981D8": {
+                "category": "security",
+                "sub-category": "access_control",
+                "category_subcategory": "security:access_control"
+            },
+            "EE0C2083-8786-40BA-AB96-99B91AC981D8": {
+                "category": "security",
+                "sub-category": "access_control",
+                "category_subcategory": "security:access_control"
+            },
+            "EE0C2084-8786-40BA-AB96-99B91AC981D8": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "EE0C2085-8786-40BA-AB96-99B91AC981D8": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "EE0C2086-8786-40BA-AB96-99B91AC981D8": {
+                "category": "device_mgmt",
+                "sub-category": "txpower",
+                "category_subcategory": "device_mgmt:txpower"
+            },
+            "EE0C2087-8786-40BA-AB96-99B91AC981D8": {
+                "category": "device_mgmt",
+                "sub-category": "txpower",
+                "category_subcategory": "device_mgmt:txpower"
+            },
+            "EE0C2088-8786-40BA-AB96-99B91AC981D8": {
+                "category": "device_mgmt",
+                "sub-category": "advertising",
+                "category_subcategory": "device_mgmt:advertising"
+            },
+            "EE0C2089-8786-40BA-AB96-99B91AC981D8": {
+                "category": "device_mgmt",
+                "sub-category": "factory_reset",
+                "category_subcategory": "device_mgmt:factory_reset"
+            },
+            "A3C87500-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "A3C87501-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "A3C87502-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "A3C87503-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "device_mgmt",
+                "sub-category": "advertising",
+                "category_subcategory": "device_mgmt:advertising"
+            },
+            "A3C87504-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "device_mgmt",
+                "sub-category": "txpower",
+                "category_subcategory": "device_mgmt:txpower"
+            },
+            "A3C87505-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "device_mgmt",
+                "sub-category": "txpower",
+                "category_subcategory": "device_mgmt:txpower"
+            },
+            "A3C87506-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "security",
+                "sub-category": "access_control",
+                "category_subcategory": "security:access_control"
+            },
+            "A3C87507-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "security",
+                "sub-category": "access_control",
+                "category_subcategory": "security:access_control"
+            },
+            "A3C87508-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "A3C87509-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "A3C8750A-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "A3C8750B-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "device_mgmt",
+                "sub-category": "factory_reset",
+                "category_subcategory": "device_mgmt:factory_reset"
+            },
+            "A3C8750C-8ED3-4BDF-8A39-A01BEBEDE295": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "NRF_BEACON": {
+            "955A1523-0FE2-F5AA-A094-84B8D4F3E8AD": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "955A1524-0FE2-F5AA-A094-84B8D4F3E8AD": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "955A1525-0FE2-F5AA-A094-84B8D4F3E8AD": {
+                "category": "device_mgmt",
+                "sub-category": "rssi",
+                "category_subcategory": "device_mgmt:rssi"
+            },
+            "955A1526-0FE2-F5AA-A094-84B8D4F3E8AD": {
+                "category": "locnav",
+                "sub-category": "beacon",
+                "category_subcategory": "locnav:beacon"
+            },
+            "955A1527-0FE2-F5AA-A094-84B8D4F3E8AD": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "955A1528-0FE2-F5AA-A094-84B8D4F3E8AD": {
+                "category": "device_mgmt",
+                "sub-category": "advertising",
+                "category_subcategory": "device_mgmt:advertising"
+            },
+            "955A1529-0FE2-F5AA-A094-84B8D4F3E8AD": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        }
+    },
+    "DFU": {
+        "TEXAS": {
+            "F000FFC0-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "F000FFC1-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "F000FFC2-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "F000FFC3-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "F000FFC4-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "F000FFC5-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "F000FFD0-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "F000FFD1-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        },
+        "NORDIC": {
+            "0000FE59-0000-1000-8000-00805F9B34FB": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001530-1212-EFDE-1523-785FEABCD123": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001531-1212-EFDE-1523-785FEABCD123": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001532-1212-EFDE-1523-785FEABCD123": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001533-1212-EFDE-1523-785FEABCD123": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001534-1212-EFDE-1523-785FEABCD123": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "8EC90003-F315-4F60-9FB8-838830DAEA50": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "8EC90004-F315-4F60-9FB8-838830DAEA50": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "8EC90001-F315-4F60-9FB8-838830DAEA50": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "8EC90002-F315-4F60-9FB8-838830DAEA50": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "8E400001-F315-4F60-9FB8-838830DAEA50": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        },
+        "CYPRESS": {
+            "00060000-F8CE-11E4-ABF4-0002A5D5C51B": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00060001-F8CE-11E4-ABF4-0002A5D5C51B": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        },
+        "QUALCOMM": {
+            "00001100-D102-11E1-9B23-00025B00A5A5": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001101-D102-11E1-9B23-00025B00A5A5": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001102-D102-11E1-9B23-00025B00A5A5": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001103-D102-11E1-9B23-00025B00A5A5": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001016-D102-11E1-9B23-00025B00A5A5": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        },
+        "SILABS": {
+            "1D14D6EE-FD63-4FA1-BFA4-8F47B42119F0": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "F7BF3564-FB6D-4E53-88A4-5E37E0326063": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "984227F3-34FC-4045-A5D0-2C581F81A153": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "4F4A2368-8CCA-451E-BFFF-CF0E2EE23E9F": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "4CC07BCF-0868-4B32-9DAD-BA4CC41E5316": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "25F05C0A-E917-46E9-B2A5-AA2BE1245AFE": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        },
+        "STMICRO": {
+            "0000FE20-CC7A-482A-984A-7F2ED5B3E58F": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "0000FE11-8E22-4541-9D4C-21EDAE82ED19": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "0000FE22-8E22-4541-9D4C-21EDAE82ED19": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "0000FE23-8E22-4541-9D4C-21EDAE82ED19": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "0000FE24-8E22-4541-9D4C-21EDAE82ED19": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        },
+        "STMICRO_BLUENRG": {
+            "8A97F7C0-8506-11E3-BAA7-0800200C9A66": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "122E8CC0-8508-11E3-BAA7-0800200C9A66": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "210F99F0-8508-11E3-BAA7-0800200C9A66": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "2691AA80-8508-11E3-BAA7-0800200C9A66": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "2BDC5760-8508-11E3-BAA7-0800200C9A66": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        },
+        "NXP": {
+            "003784CF-F7E3-55B4-6C4C-9FD140100A16": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "013784CF-F7E3-55B4-6C4C-9FD140100A16": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        }
+    },
+    "OTHER": {
+        "GOPRO": {
+            "B5F90001-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90002-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90003-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "B5F90004-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90005-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90006-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90072-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90073-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90074-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90075-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90076-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90077-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90078-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "B5F90079-AA8D-11E3-9046-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "MYO": {
+            "D5060001-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060101-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060201-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060401-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060002-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060402-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060502-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060003-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060103-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060004-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060104-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060005-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060105-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060205-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060305-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D5060405-A904-DEB9-4748-2C7F4A124842": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "TI_PROJECTZERO": {
+            "F0001110-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F0001111-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F0001120-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F0001121-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F0001122-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F0001130-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F0001131-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F0001132-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "TI_SENSORTAG": {
+            "F000AA00-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA01-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA02-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA03-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA10-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA11-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA12-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA13-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA20-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA21-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA22-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA23-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA30-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA31-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA32-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA33-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA40-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA41-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA42-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA43-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA44-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA50-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA51-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA52-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA53-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA60-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA61-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA62-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA64-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA65-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA66-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA70-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA71-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA72-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA73-0451-4000-B000-000000000000": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "F000AA80-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA81-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA82-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AA83-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AC00-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AC01-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000AC02-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F000C0E0-0451-4000-B000-000000000000": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            },
+            "F000C0E1-0451-4000-B000-000000000000": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            },
+            "F000C0E2-0451-4000-B000-000000000000": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            },
+            "F000C0E3-0451-4000-B000-000000000000": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            },
+            "F000CCC0-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "F000CCC1-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "F000CCC2-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "F000CCC3-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "F000FFE1-0451-4000-B000-000000000000": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "TESS_SENSORTAG": {
+            "F000180F-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "battery",
+                "category_subcategory": "device_mgmt:battery"
+            },
+            "F0002A19-0451-4000-B000-000000000000": {
+                "category": "device_mgmt",
+                "sub-category": "battery",
+                "category_subcategory": "device_mgmt:battery"
+            }
+        },
+        "SPHERO": {
+            "22BB746F-2BB0-7554-2D6F-726568705327": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22BB746F-2BB2-7554-2D6F-726568705327": {
+                "category": "device_mgmt",
+                "sub-category": "txpower",
+                "category_subcategory": "device_mgmt:txpower"
+            },
+            "22BB746F-2BB6-7554-2D6F-726568705327": {
+                "category": "device_mgmt",
+                "sub-category": "rssi",
+                "category_subcategory": "device_mgmt:rssi"
+            },
+            "22BB746F-2BB7-7554-2D6F-726568705327": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22BB746F-2BBD-7554-2D6F-726568705327": {
+                "category": "security",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22BB746F-2BBE-7554-2D6F-726568705327": {
+                "category": "security",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22BB746F-2BBF-7554-2D6F-726568705327": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22BB746F-3BBA-7554-2D6F-726568705327": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22BB746F-2BA0-7554-2D6F-726568705327": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22BB746F-2BA1-7554-2D6F-726568705327": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22BB746F-2BA6-7554-2D6F-726568705327": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "NXP_QPP": {
+            "D44BC439-ABFD-45A2-B575-925416129600": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D44BC439-ABFD-45A2-B575-925416129601": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D44BC439-ABFD-45A2-B575-925416129602": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D44BC439-ABFD-45A2-B575-925416129603": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D44BC439-ABFD-45A2-B575-925416129604": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D44BC439-ABFD-45A2-B575-925416129605": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D44BC439-ABFD-45A2-B575-925416129606": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "D44BC439-ABFD-45A2-B575-925416129607": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "SIMMA_VNA2-ELD": {
+            "4439C0C0-BD26-11E4-AAA3-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "F8287520-BD28-11E4-B64D-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "C188C680-BD2A-11E4-BC8D-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "AINA_WIRELESS": {
+            "127FACE1-CB21-11E5-93D0-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "127FBEEF-CB21-11E5-93D0-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "127FDEAD-CB21-11E5-93D0-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "127F50DA-CB21-11E5-93D0-0002A5D5C51B": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "127F57A7-CB21-11E5-93D0-0002A5D5C51B": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "127F8652-CB21-11E5-93D0-0002A5D5C51B": {
+                "category": "environment",
+                "sub-category": "sensors",
+                "category_subcategory": "environment:sensors"
+            },
+            "127FC0FF-CB21-11E5-93D0-0002A5D5C51B": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            }
+        },
+        "MIBAND": {
+            "00001530-0000-3512-2118-0009AF100700": {
+                "category": "fitness",
+                "sub-category": "body_metrics",
+                "category_subcategory": "fitness:body_metrics"
+            },
+            "00001531-0000-3512-2118-0009AF100700": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00001532-0000-3512-2118-0009AF100700": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            },
+            "00000003-0000-3512-2118-0009AF100700": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000005-0000-3512-2118-0009AF100700": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00000006-0000-3512-2118-0009AF100700": {
+                "category": "device_mgmt",
+                "sub-category": "battery",
+                "category_subcategory": "device_mgmt:battery"
+            },
+            "00000007-0000-3512-2118-0009AF100700": {
+                "category": "fitness",
+                "sub-category": "activity_measurement",
+                "category_subcategory": "fitness:activity_measurement"
+            },
+            "00000008-0000-3512-2118-0009AF100700": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000009-0000-3512-2118-0009AF100700": {
+                "category": "security",
+                "sub-category": "authentication",
+                "category_subcategory": "security:authentication"
+            },
+            "00000010-0000-3512-2118-0009AF100700": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000012-0000-3512-2118-0009AF100700": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000013-0000-3512-2118-0009AF100700": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000020-0000-3512-2118-0009AF100700": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "USBLE232C": {
+            "00031234-0000-1000-8000-00805F9B0130": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00031234-0000-1000-8000-00805F9B0131": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00031234-0000-1000-8000-00805F9B0133": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00031234-0000-1000-8000-00805F9B0134": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00031234-0000-1000-8000-00805F9B0135": {
+                "category": "device_mgmt",
+                "sub-category": "reboot",
+                "category_subcategory": "device_mgmt:reboot"
+            },
+            "00031234-0000-1000-8000-00805F9B0136": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00031234-0000-1000-8000-00805F9B0132": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "LAIRDTECH_VSP": {
+            "569A1101-B87F-490C-92CB-11BA5EA5167C": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            },
+            "569A2000-B87F-490C-92CB-11BA5EA5167C": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            },
+            "569A2001-B87F-490C-92CB-11BA5EA5167C": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            },
+            "569A2002-B87F-490C-92CB-11BA5EA5167C": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            },
+            "569A2003-B87F-490C-92CB-11BA5EA5167C": {
+                "category": "communications",
+                "sub-category": "spp",
+                "category_subcategory": "communications:spp"
+            }
+        },
+        "PEBBLE_WATCH": {
+            "00000001-328E-0FBB-C642-1AA6699BDADA": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000002-328E-0FBB-C642-1AA6699BDADA": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "00000003-328E-0FBB-C642-1AA6699BDADA": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000005-328E-0FBB-C642-1AA6699BDADA": {
+                "category": "device_mgmt",
+                "sub-category": "connection_management",
+                "category_subcategory": "device_mgmt:connection_management"
+            },
+            "30000003-328E-0FBB-C642-1AA6699BDADA": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "30000004-328E-0FBB-C642-1AA6699BDADA": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "30000006-328E-0FBB-C642-1AA6699BDADA": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "AYLA": {
+            "FCE3EC41-59B6-4873-AE36-FAB25BD59ADC": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "7E9869ED-4DB3-4520-88EA-1C21EF1BA834": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000001-FE28-435B-991A-F1B21BB9BCD0": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00000002-FE28-435B-991A-F1B21BB9BCD0": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00000003-FE28-435B-991A-F1B21BB9BCD0": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            },
+            "00000004-FE28-435B-991A-F1B21BB9BCD0": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000005-FE28-435B-991A-F1B21BB9BCD0": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00000006-FE28-435B-991A-F1B21BB9BCD0": {
+                "category": "device_mgmt",
+                "sub-category": "device_info",
+                "category_subcategory": "device_mgmt:device_info"
+            }
+        },
+        "ANCS": {
+            "7905F431-B5CE-4E99-A40F-4B1E122D00D0": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "9FBF120D-6301-42D9-8C58-25E699A21DBD": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "69D1D8F3-45E1-49A8-9821-9BBDFDAAD9D9": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "22EAC6E9-24D6-4BB5-BE44-B36ACE7C7BFB": {
+                "category": "device_mgmt",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "LEICA_DISTO": {
+            "3AB10100-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10101-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10102-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10103-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10104-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10105-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10106-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10107-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10108-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB10109-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "3AB1010A-F831-4395-B29D-570977D5BF94": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "MIDI": {
+            "03B80E5A-EDE8-4B33-A751-6CE34EC4C700": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "7772E5DB-3868-4112-A1A9-F2669D106BF3": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "PROPTT2": {
+            "2320AE58-8394-4652-95F7-0A872AC0958F": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "481DE929-8D4C-4D9E-A574-772A73E63977": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "89A8591D-BB19-485B-9F59-58492BC33E24": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "894C8042-E841-461C-A5C9-5A73D25DB08E": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "TAP": {
+            "C3FF0001-1D8B-40FD-A56F-C7BD5D0F3370": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "C3FF0005-1D8B-40FD-A56F-C7BD5D0F3370": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            }
+        },
+        "ISSC_TRANSPARENT": {
+            "49535343-FE7D-4AE5-8FA9-9FAFD205E455": {
+                "category": "communications",
+                "sub-category": "uart",
+                "category_subcategory": "communications:uart"
+            },
+            "49535343-6DAA-4D02-ABF6-19569ACA69FE": {
+                "category": "communications",
+                "sub-category": "uart",
+                "category_subcategory": "communications:uart"
+            },
+            "49535343-ACA3-481C-91EC-D85E28A60318": {
+                "category": "communications",
+                "sub-category": "uart",
+                "category_subcategory": "communications:uart"
+            },
+            "49535343-1E4D-4BD9-BA61-23C647249616": {
+                "category": "communications",
+                "sub-category": "uart",
+                "category_subcategory": "communications:uart"
+            },
+            "49535343-8841-43F4-A8D4-ECBE34729BB3": {
+                "category": "communications",
+                "sub-category": "uart",
+                "category_subcategory": "communications:uart"
+            }
+        },
+        "NORDIC_UART": {
+            "6E400001-B5A3-F393-E0A9-E50E24DCCA9E": {
+                "category": "communications",
+                "sub-category": "uart",
+                "category_subcategory": "communications:uart"
+            },
+            "6E400002-B5A3-F393-E0A9-E50E24DCCA9E": {
+                "category": "communications",
+                "sub-category": "uart",
+                "category_subcategory": "communications:uart"
+            },
+            "6E400003-B5A3-F393-E0A9-E50E24DCCA9E": {
+                "category": "communications",
+                "sub-category": "uart",
+                "category_subcategory": "communications:uart"
+            }
+        }
+    }
+}
