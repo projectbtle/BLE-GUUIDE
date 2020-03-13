@@ -51,6 +51,9 @@ class ApkMatcher:
         if os.path.isfile(extractor_output_file):
             with open(extractor_output_file) as f1:
                 self.obj_extractor_output = json.load(f1)
+        else:
+            print('Input file not found!')
+            return None
             
         # Load KFUs.
         self.fn_load_kfus()
@@ -76,7 +79,7 @@ class ApkMatcher:
     def fn_get_functionality(self):
         checked_uuid_method_pairs = {}
         for apk in self.obj_extractor_output:
-            for uuid in self.obj_extractor_output[apk]:
+            for uuid in self.obj_extractor_output[apk]['uuids']:
                 if uuid in self.list_ignore_uuids:
                     continue
                     
