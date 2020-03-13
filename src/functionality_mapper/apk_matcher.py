@@ -12,7 +12,7 @@ class ApkMatcher:
         self.base_dir = basepath
         self.io_dir = os.path.abspath(os.path.join(
             self.base_dir,
-            'input-output'
+            'input_output'
         ))
         self.config_dir = os.path.abspath(os.path.join(
             self.base_dir,
@@ -28,7 +28,7 @@ class ApkMatcher:
         ))
         self.app_specific_dir = os.path.abspath(os.path.join(
             self.res_dir,
-            'app-specific'
+            'app_specific'
         ))
         self.strings_dir = os.path.abspath(os.path.join(
             self.app_specific_dir,
@@ -45,7 +45,7 @@ class ApkMatcher:
         # Load extractor output.
         extractor_output_file = os.path.join(
             self.io_dir,
-            'uuid-extractor-output.json'
+            'uuid_extractor_output.json'
         )
         if path_to_extractor_output != None:
             extractor_output_file = path_to_extractor_output

@@ -9,7 +9,7 @@ class StringsFieldsExtractor:
     def __init__(self, basepath):
         self.io_dir = os.path.abspath(os.path.join(
             self.base_dir,
-            'input-output'
+            'input_output'
         ))
         self.config_dir = os.path.abspath(os.path.join(
             self.base_dir,
@@ -25,7 +25,7 @@ class StringsFieldsExtractor:
         ))
         self.app_specific_dir = os.path.abspath(os.path.join(
             self.res_dir,
-            'app-specific'
+            'app_specific'
         ))
         self.strings_dir = os.path.abspath(os.path.join(
             self.app_specific_dir,

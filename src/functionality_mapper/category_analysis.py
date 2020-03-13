@@ -20,7 +20,7 @@ class CategoryAnalyser:
         super().__init__()
         path_to_categories = os.path.join(
             basepath,
-            'resources/common/functional-categories-database.json'
+            'resources/common/functional_categories_database.json'
         )
         with open(path_to_categories) as json_data:
             self.category_keywords = json.load(json_data)
@@ -166,10 +166,12 @@ class CategoryAnalyser:
                                         if meaning is not None and meaning.name() in meanings:
                                             matches['category'].append(category)
                                             matches['sub-category'].append(sub_category)
+                                            matches['category_subcategory'].append(category+':'+sub_category)   
                                             matches['words'].append(word)
                                 else:
                                     matches['category'].append(category)
-                                    matches['sub-category'].append(sub_category)   
+                                    matches['sub-category'].append(sub_category)
+                                    matches['category_subcategory'].append(category+':'+sub_category)   
                                     matches['words'].append(word) 
                             else:
                                 matches['category'].append(category)
@@ -203,6 +205,7 @@ class CategoryAnalyser:
         matches = {}
         matches['category']= []
         matches['sub-category']= []
+        matches['category_subcategory'] = []
         result = re.search(r"<(.*): [\w|\d|\$|\.|\[\]]* (.*)\(",text)
         text = '{0} {1}'.format(result.group(1),result.group(2))
         text = text.lower()
@@ -212,9 +215,11 @@ class CategoryAnalyser:
                     if word in text:
                         matches['category'].append(category)
                         matches['sub-category'].append(sub_category)
+                        matches['category_subcategory'].append(category+':'+sub_category)   
                     elif text.endswith(word):
                         matches['category'].append(category)
                         matches['sub-category'].append(sub_category)
+                        matches['category_subcategory'].append(category+':'+sub_category)   
         return matches
 
     def match_call(self,text,size_limit=3):
@@ -228,6 +233,7 @@ class CategoryAnalyser:
         matches = {}
         matches['category']= []
         matches['sub-category']= []
+        matches['category_subcategory'] = []
         text = text.lower()
         for category in self.category_keywords:
             for sub_category in self.category_keywords[category]:
@@ -235,9 +241,11 @@ class CategoryAnalyser:
                     if word in text and len(word)>size_limit:
                         matches['category'].append(category)
                         matches['sub-category'].append(sub_category)
+                        matches['category_subcategory'].append(category+':'+sub_category)   
                     elif text.endswith(word):
                         matches['category'].append(category)
                         matches['sub-category'].append(sub_category)
+                        matches['category_subcategory'].append(category+':'+sub_category)   
         return matches
 
     def check_website(self,url):

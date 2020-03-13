@@ -19,7 +19,7 @@ class PreAnalysisSetup:
         ))
         
         sys.path.append(os.path.abspath(self.utils_dir))
-        from strings-fields-extractor import StringsFieldsExtractor
+        from strings_fields_extractor import StringsFieldsExtractor
         sf_extractor = StringsFieldsExtractor(self.base_dir)
         
     def fn_perform_pre_analysis_setup(self):

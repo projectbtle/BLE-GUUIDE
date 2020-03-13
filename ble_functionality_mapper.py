@@ -11,7 +11,7 @@ class UuidFunctionMapper:
         ))
         self.io_dir = os.path.abspath(os.path.join(
             self.base_dir,
-            'input-output'
+            'input_output'
         ))
         self.analyser_dir = os.path.abspath(os.path.join(
             self.src_dir,
@@ -23,10 +23,10 @@ class UuidFunctionMapper:
 
         self.fmap_dir = os.path.abspath(os.path.join(
             self.src_dir,
-            'functionality-mapper'
+            'functionality_mapper'
         ))
         sys.path.append(os.path.abspath(self.fmap_dir))
-        from apk-matcher import ApkMatcher
+        from apk_matcher import ApkMatcher
         apk_matcher = ApkMatcher(self.base_dir)
         
         self.bool_stats_gather = False
@@ -80,7 +80,7 @@ class UuidFunctionMapper:
             stats_analyser.fn_get_stats()
         if self.bool_map_functionality == True:
             apk_output = apk_matcher.fn_get_functionality()
-            apkoutfile = os.path.join(self.io_dir, 'apk-matcher-output.json')
+            apkoutfile = os.path.join(self.io_dir, 'apk_matcher_output.json')
             with open(apkoutfile, 'w') as f:
                 json.dump(apk_output, f, indent=4)
             

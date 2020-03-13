@@ -13,7 +13,7 @@ class UUIDStatsAnalyser:
     def __init__(self, basepath):
         # Set up logger.
         logging.basicConfig()
-        self.logger = logging.getLogger('uuid-stats-analyser')
+        self.logger = logging.getLogger('analyser')
         self.logger.setLevel(logging.DEBUG)
         
         # Set up directory paths.
@@ -21,7 +21,7 @@ class UUIDStatsAnalyser:
         
         self.io_dir = os.path.abspath(os.path.join(
             self.base_dir,
-            'input-output'
+            'input_output'
         ))
         self.config_dir = os.path.abspath(os.path.join(
             self.base_dir,
@@ -37,7 +37,7 @@ class UUIDStatsAnalyser:
         ))
         self.app_specific_dir = os.path.abspath(os.path.join(
             self.res_dir,
-            'app-specific'
+            'app_specific'
         ))
 
         # Initialise objects.
@@ -106,7 +106,7 @@ class UUIDStatsAnalyser:
         self.fn_dfu_analysis()
 
     def fn_read_extractor_output(self):
-        src_file = os.path.join(self.io_dir, 'uuid-extractor-output.json')
+        src_file = os.path.join(self.io_dir, 'uuid_extractor_output.json')
         with open(src_file) as f0:
             input_extractor = json.load(f0)
         for sha in input_extractor:
@@ -134,7 +134,7 @@ class UUIDStatsAnalyser:
         self.logger.info('Initialising adopted UUID data.')
         adopted_uuid_list_file = os.path.join(
             self.common_dir,
-            'adopted-uuid-list.csv'
+            'adopted_uuid_list.csv'
         )
         with open(adopted_uuid_list_file) as f:
             adopted_uuid_list = f.read().splitlines()
@@ -157,7 +157,7 @@ class UUIDStatsAnalyser:
         self.logger.info('Initialising member UUID list.')
         member_uuid_list_file = os.path.join(
             self.common_dir,
-            'sig-member-list.txt'
+            'sig_member_list.txt'
         )
         with open(member_uuid_list_file) as f:
             member_uuid_list = f.read().splitlines()
