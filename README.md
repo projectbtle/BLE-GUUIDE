@@ -48,10 +48,10 @@ Execute `pre_analysis_setup.py` to extract artifacts from APKs and obtain data f
 * Depending on the number of APKs that are being analysed, this step can also result in significant storage space requirements.
 
 ### 4. Functionality Mapping and Analysis
-Execute `ble_functionality_mapper.py` with the required parameters.
+Execute `ble_guuide.py` with the required parameters.
 
 ```
-usage: ble_functionality_mapper.py [-h] [-s] [-m]
+usage: ble_guuide.py [-h] [-s] [-m]
 
 A tool for performing functionality mapping for BLE UUIDs.
 
