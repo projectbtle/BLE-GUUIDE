@@ -1,4 +1,4 @@
-# BLE Functionality Mapper
+# BLE GUUIDE
 A framework that enables mapping functionality to Bluetooth Low Energy (BLE) UUIDs and APKs by combining data from various sources.
 
 ## Prerequisites
