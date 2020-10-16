@@ -1350,6 +1350,81 @@
                 "category": "environment",
                 "sub-category": "sensors",
                 "category_subcategory": "environment:sensors"
+            },
+            "00002900-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002901-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002902-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002903-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002904-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002905-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002906-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002907-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002908-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "00002909-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "0000290A-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "0000290B-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "0000290C-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "0000290D-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
+            },
+            "0000290E-0000-1000-8000-00805F9B34FB": {
+                "category": "",
+                "sub-category": "",
+                "category_subcategory": ""
             }
         }
     },
@@ -1719,11 +1794,6 @@
             }
         },
         "NORDIC": {
-            "0000FE59-0000-1000-8000-00805F9B34FB": {
-                "category": "device_mgmt",
-                "sub-category": "dfu",
-                "category_subcategory": "device_mgmt:dfu"
-            },
             "00001530-1212-EFDE-1523-785FEABCD123": {
                 "category": "device_mgmt",
                 "sub-category": "dfu",
@@ -1745,6 +1815,13 @@
                 "category_subcategory": "device_mgmt:dfu"
             },
             "00001534-1212-EFDE-1523-785FEABCD123": {
+                "category": "device_mgmt",
+                "sub-category": "dfu",
+                "category_subcategory": "device_mgmt:dfu"
+            }
+        },
+        "NORDIC_SECURE": {
+            "0000FE59-0000-1000-8000-00805F9B34FB": {
                 "category": "device_mgmt",
                 "sub-category": "dfu",
                 "category_subcategory": "device_mgmt:dfu"
