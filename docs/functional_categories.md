@@ -4,7 +4,7 @@ Below are the functional categories we use in our dictionary, along with their m
 
 * Medical  
     - Measurement: *User health metrics are measured.*  
-    –Intervention: *Active action is taken with regard to user health, e.g., administering insulin.*  
+    – Intervention: *Active action is taken with regard to user health, e.g., administering insulin.*  
 * Fitness  
     – Activity Measurement: *User’s physical activities, e.g., running.*  
     – Body Metrics: *Height, weight and composition.*  
