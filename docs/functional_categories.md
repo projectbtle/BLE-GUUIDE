@@ -1,4 +1,4 @@
-##FUNCTIONAL CATEGORY DESCRIPTIONS
+## FUNCTIONAL CATEGORY DESCRIPTIONS
 
 Below are the functional categories we use in our dictionary, along with their meanings:
 
