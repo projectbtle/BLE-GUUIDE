@@ -224,7 +224,7 @@ class UUIDStatsAnalyser:
             return False
         if uuid[8:] != RESERVED_BLE_SUFFIX:
             return False
-        if uuid[4:8] not in self.input_obj_ble_adopted_uuids:
+        if uuid[4:8] not in list(self.input_obj_ble_adopted_uuids.keys()):
             return False
         return True
         
@@ -306,6 +306,7 @@ class UUIDStatsAnalyser:
                     for kfu in self.input_obj_kfus[category][subcategory]:
                         if kfu not in all_kfus:
                             all_kfus.append(kfu)
+
         num_apps_all_kfu = 0
         num_apps_all_ufu = 0
         num_apps_both = 0
@@ -335,7 +336,7 @@ class UUIDStatsAnalyser:
         self.logger.info('Num apps with all UFUs: ' + str(num_apps_all_ufu))
         self.logger.info('Num apps with both: ' + str(num_apps_both))
         self.logger.info('Num apps with none: ' + str(num_apps_none))
-        
+
     def fn_id_apks_with_at_least_one_adopted_uuid(self):
         self.logger.info('Identifying APKs with at least one non-GAP/GATT/GSS adopted UUID.')
         for apk in self.input_obj_uuids_per_apk:
@@ -410,7 +411,6 @@ class UUIDStatsAnalyser:
             else:
                 self.obj_apks_notonly_gattgapgss[apk] = \
                     copy.deepcopy(self.obj_apks_only_adopted[apk])
-
         # Print logging info.
         num_apks_gattgapgss_uuids_only = len(
             list(self.obj_apks_only_gattgapgss.keys())
@@ -471,7 +471,7 @@ class UUIDStatsAnalyser:
             incorrect_per_apk = False
             for uuid in self.input_obj_uuids_per_apk[apk]['uuids']:
                 if ((uuid[0:4] == RESERVED_BLE_PREFIX) and (uuid[8:] == RESERVED_BLE_SUFFIX)):
-                    if ((uuid[4:8] not in self.input_obj_ble_adopted_uuids) and 
+                    if ((uuid[4:8] not in list(self.input_obj_ble_adopted_uuids.keys())) and 
                             (uuid[4:8] not in self.input_ble_member_uuids)):
                         incorrect_per_apk = True
                         break
@@ -490,7 +490,7 @@ class UUIDStatsAnalyser:
         for uuid in self.input_obj_apks_per_uuid:
             incorrect_per_uuid = False
             if ((uuid[0:4] == RESERVED_BLE_PREFIX) and (uuid[8:] == RESERVED_BLE_SUFFIX)):
-                if ((uuid[4:8] not in self.input_obj_ble_adopted_uuids) and 
+                if ((uuid[4:8] not in list(self.input_obj_ble_adopted_uuids.keys())) and 
                         (uuid[4:8] not in self.input_ble_member_uuids)):
                     incorrect_per_uuid = True
             if incorrect_per_uuid == True:
@@ -531,3 +531,20 @@ class UUIDStatsAnalyser:
                 str(len(unique_apks_with_dfu_uuids))
                 + ' APKs have at least one DFU UUID'
             )
+              
+        for apk in apks_per_chipset['NORDIC']:
+            legacy_only_apks = []
+            apk_uuids = list(self.input_obj_uuids_per_apk[apk]['uuids'].keys())
+            secure_uuid_present = False
+            for secure_uuid in self.input_obj_kfus['DFU']['NORDIC_SECURE']:
+                if secure_uuid in apk_uuids:
+                    secure_uuid_present = True
+            if secure_uuid_present == False:
+                if apk not in legacy_only_apks:
+                    legacy_only_apks.append(apk)
+        self.logger.info(
+            str(len(legacy_only_apks))
+            + ' APKs have only Nordic Legacy (no Secure) UUIDs.'
+        )
+        
+        

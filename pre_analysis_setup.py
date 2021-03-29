@@ -20,7 +20,7 @@ class PreAnalysisSetup:
         
         sys.path.append(os.path.abspath(self.utils_dir))
         from strings_fields_extractor import StringsFieldsExtractor
-        sf_extractor = StringsFieldsExtractor(self.base_dir)
+        self.sf_extractor = StringsFieldsExtractor(self.base_dir)
         
     def fn_perform_pre_analysis_setup(self):
         apk_list_file = os.path.join(
@@ -34,4 +34,4 @@ class PreAnalysisSetup:
             
     def fn_perform_per_apk_setup(self, path_to_apk):
         # Strings/fields extraction.
-        sf_extractor.fn_extract_fields_and_strings(path_to_apk)
+        self.sf_extractor.fn_extract_fields_and_strings(path_to_apk)
